@@ -1,0 +1,96 @@
+[
+  {
+    "principio": {
+      "id": "4",
+      "titulo": "Robusto",
+      "url": "https://wikiwcag.udl.cat/Principio_4"
+    },
+    "pauta": {
+      "id": "4.1",
+      "titulo": "Compatible",
+      "url": "https://wikiwcag.udl.cat/Principio_4/4.1_Compatible"
+    },
+    "id": "4.1.1",
+    "titulo": "Procesamiento (ELIMINADO en WCAG 2.2)",
+    "nivel": "A",
+    "version": "0",
+    "perfiles": ["Desarrollo"],
+    "grupo": "Robusto",
+    "subgrupo": "Estructura del código",
+    "descripcion": "Asegurar que el código está bien formado y sin errores de sintaxis para permitir su procesamiento automático por parte de agentes de usuario y tecnologías de apoyo.",
+    "url": "https://wikiwcag.udl.cat/Principio_4/4.1_Compatible#4.1.1_-_Procesamiento_-_Nivel:_A_(ELIMINADA_DE_WCAG_2.2)",
+
+    "discapacidades": [
+      { "id": "blind", "titulo": "Ceguera total", "icon": "assets/Sinvision.png" },
+      { "id": "lowvision", "titulo": "Baja visión", "icon": "assets/Bajavision.png" },
+      { "id": "colorblind", "titulo": "Daltonismo", "icon": "assets/Daltonismo.png" },
+      { "id": "deaf", "titulo": "Discapacidad auditiva", "icon": "assets/Auditiva.png" },
+      { "id": "motor", "titulo": "Discapacidad motriz", "icon": "assets/Motriz.png" },
+      { "id": "cognitive", "titulo": "Discapacidad cognitiva", "icon": "assets/Cognitiva.png" },
+      { "id": "learning", "titulo": "Dificultades de aprendizaje y lenguaje", "icon": "assets/LenguajeAprendizaje.png" }
+    ],
+
+    "subcriterios": [
+      {
+        "id": "4.1.1-A",
+        "titulo": "Código bien formado",
+        "descripcion": "El código debe estar bien formado y sin errores de sintaxis para que los agentes de usuario puedan procesarlo sin ambigüedades.",
+        "url": "https://wikiwcag.udl.cat/Principio_4/4.1_Compatible/4.1.1-A#4.1.1-A._C%C3%B3digo_bien_formado"
+      }
+    ]
+  },
+
+  {
+    "principio": { "id": "4", "titulo": "Robusto", "url": "https://wikiwcag.udl.cat/Principio_4" },
+    "pauta": { "id": "4.1", "titulo": "Compatible", "url": "https://wikiwcag.udl.cat/Principio_4/4.1_Compatible" },
+    "id": "4.1.2",
+    "titulo": "Nombre, función, valor",
+    "nivel": "A",
+    "version": "2.1",
+    "perfiles": ["Desarrollo"],
+    "grupo": "Robusto",
+    "subgrupo": "Semántica",
+    "descripcion": "Asegurar que productos de apoyo pueden reconocer, interpretar y operar correctamente los elementos de la interfaz de usuario.",
+    "url": "https://wikiwcag.udl.cat/Principio_4/4.1_Compatible#4.1.2_-_Nombre,_funci%C3%B3n,_valor_-_Nivel:_A",
+
+    "discapacidades": [
+      { "id": "blind", "titulo": "Ceguera total", "icon": "assets/Sinvision.png" }
+    ],
+
+    "subcriterios": [
+      {
+        "id": "4.1.2-A",
+        "titulo": "Nombre, función, valor",
+        "descripcion": "Los elementos de la interfaz (formularios, enlaces, componentes personalizados…) deben exponer nombre, rol y estado para que los productos de apoyo los interpreten correctamente.",
+        "url": "https://wikiwcag.udl.cat/Principio_4/4.1_Compatible/4.1.2-A#4.1.2-A._Nombre,_funci%C3%B3n_y_valor"
+      }
+    ]
+  },
+
+  {
+    "principio": { "id": "4", "titulo": "Robusto", "url": "https://wikiwcag.udl.cat/Principio_4" },
+    "pauta": { "id": "4.1", "titulo": "Compatible", "url": "https://wikiwcag.udl.cat/Principio_4/4.1_Compatible" },
+    "id": "4.1.3",
+    "titulo": "Mensajes de estado",
+    "nivel": "AA",
+    "version": "2.1",
+    "perfiles": ["Desarrollo", "UX"],
+    "grupo": "Robusto",
+    "subgrupo": "Semántica",
+    "descripcion": "Los mensajes de estado deben ser identificables por software para ser comunicados sin necesidad de recibir el foco.",
+    "url": "https://wikiwcag.udl.cat/Principio_4/4.1_Compatible#4.1.3_%E2%80%93_Mensajes_de_estado_-_Nivel:_A",
+
+    "discapacidades": [
+      { "id": "blind", "titulo": "Ceguera total", "icon": "assets/Sinvision.png" }
+    ],
+
+    "subcriterios": [
+      {
+        "id": "4.1.3-A",
+        "titulo": "Mensajes de estado",
+        "descripcion": "Los mensajes de estado deben exponer roles y propiedades que permitan que los lectores de pantalla los anuncien automáticamente.",
+        "url": "https://wikiwcag.udl.cat/Principio_4/4.1_Compatible/4.1.3-A#4.1.3-A._Mensajes_de_estado"
+      }
+    ]
+  }
+]

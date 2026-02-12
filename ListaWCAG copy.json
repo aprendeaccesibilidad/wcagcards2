@@ -1,0 +1,757 @@
+[
+    {
+        "principio": {
+          "id": "1",
+          "titulo": "Perceptible",
+          "url": "https://wikiwcag.udl.cat/Principio_1"
+        },
+        "pauta": {
+          "id": "1.1",
+          "titulo": "Texto Alternativo",
+          "url": "https://wikiwcag.udl.cat/Principio_1/1.1_Texto_Alternativo"
+        },
+        "id": "1.1.1",
+        "titulo": "Texto Alternativo",
+        "nivel": "A",
+        "version": "2.1",
+        "grupo": "Contenido",
+        "subgrupo": "No-texto",
+        "descripcion": "Todo contenido no textual debe disponer de una alternativa textual equivalente que transmita la misma información o cumpla la misma función.",
+        "url": "https://wikiwcag.udl.cat/Principio_1/1.1_Texto_Alternativo#1.1.1_-_Texto_alternativo_-_Nivel:_A",
+        "discapacidades": [
+          {
+            "id": "visual-total",
+            "titulo": "Discapacidad visual total",
+            "icon": "https://wikiwcag.udl.cat/images/4/4d/Sinvision.png"
+          },
+          {
+            "id": "cognitiva",
+            "titulo": "Discapacidad cognitiva",
+            "icon": "https://wikiwcag.udl.cat/images/4/40/Cognitiva.png"
+          }
+        ],
+        "subcriterios": [
+          {
+            "id": "1.1.1-A",
+            "titulo": "Alternativa textual breve obligatoria",
+            "url": "https://wikiwcag.udl.cat/Principio_1/1.1_Texto_Alternativo/1.1.1-A"
+          },
+          {
+            "id": "1.1.1-B",
+            "titulo": "Actualización de alternativas textuales",
+            "url": "https://wikiwcag.udl.cat/Principio_1/1.1_Texto_Alternativo/1.1.1-B"
+          },
+          {
+            "id": "1.1.1-C",
+            "titulo": "Imágenes CSS solo decorativas",
+            "url": "https://wikiwcag.udl.cat/Principio_1/1.1_Texto_Alternativo/1.1.1-C"
+          },
+          {
+            "id": "1.1.1-D",
+            "titulo": "Alternativa única para grupos de imágenes",
+            "url": "https://wikiwcag.udl.cat/Principio_1/1.1_Texto_Alternativo/1.1.1-D"
+          },
+          {
+            "id": "1.1.1-E",
+            "titulo": "Alternativas para arte ASCII, emoticonos y leetspeak",
+            "url": "https://wikiwcag.udl.cat/Principio_1/1.1_Texto_Alternativo/1.1.1-E"
+          },
+          {
+            "id": "1.1.1-F",
+            "titulo": "Alternativa larga cuando la breve no basta",
+            "url": "https://wikiwcag.udl.cat/Principio_1/1.1_Texto_Alternativo/1.1.1-F"
+          },
+          {
+            "id": "1.1.1-G",
+            "titulo": "Texto alternativo en imágenes funcionales",
+            "url": "https://wikiwcag.udl.cat/Principio_1/1.1_Texto_Alternativo/1.1.1-G"
+          },
+          {
+            "id": "1.1.1-H",
+            "titulo": "Combinación de enlaces e imágenes",
+            "url": "https://wikiwcag.udl.cat/Principio_1/1.1_Texto_Alternativo/1.1.1-H"
+          },
+          {
+            "id": "1.1.1-I",
+            "titulo": "Alternativa breve para contenido sensorial",
+            "url": "https://wikiwcag.udl.cat/Principio_1/1.1_Texto_Alternativo/1.1.1-I"
+          },
+          {
+            "id": "1.1.1-J",
+            "titulo": "Alternativa textual para CAPTCHAs",
+            "url": "https://wikiwcag.udl.cat/Principio_1/1.1_Texto_Alternativo/1.1.1-J"
+          },
+          {
+            "id": "1.1.1-K",
+            "titulo": "Imágenes decorativas",
+            "url": "https://wikiwcag.udl.cat/Principio_1/1.1_Texto_Alternativo/1.1.1-K"
+          }
+        ]
+      },
+    {
+      "principio": {
+        "id": "1",
+        "titulo": "Perceptible",
+        "url": "https://wikiwcag.udl.cat/Principio_1"
+      },
+      "pauta": {
+        "id": "1.2",
+        "titulo": "Medios basados en el tiempo",
+        "url": "https://wikiwcag.udl.cat/Principio_1/1.2_Medios_basados_en_el_tiempo"
+      },
+      "id": "1.2.1",
+      "titulo": "Sólo audio y sólo vídeo (Grabado)",
+      "nivel": "A",
+      "version": "2.1",
+      "grupo": "Contenido",
+      "subgrupo": "Medios temporales",
+      "descripcion": "Objetivo: hacer que la información proporcionada por el contenido pregrabado (sólo audio o sólo vídeo) esté disponible para todos los usuarios.",
+      "url": "https://wikiwcag.udl.cat/Principio_1/1.2_Medios_basados_en_el_tiempo#1.2.1",
+      "discapacidades": [
+        {
+          "id": "auditiva",
+          "titulo": "Discapacidad auditiva",
+          "icon": "https://wikiwcag.udl.cat/images/9/98/Auditiva.png"
+        },
+        {
+          "id": "visual",
+          "titulo": "Discapacidad visual",
+          "icon": "https://wikiwcag.udl.cat/images/4/4d/Sinvision.png"
+        }
+      ],
+      "subcriterios": [
+        {
+          "id": "1.2.1-A",
+          "titulo": "Sólo audio (grabado)",
+          "descripcion": "El contenido que es sólo audio grabado debe disponer de una transcripción textual completa, excepto cuando el audio sea una alternativa al contenido textual.",
+          "url": "https://wikiwcag.udl.cat/Principio_1/1.2_Medios_basados_en_el_tiempo/1.2.1-A"
+        },
+        {
+          "id": "1.2.1-B",
+          "titulo": "Sólo vídeo (grabado)",
+          "descripcion": "El contenido que es sólo vídeo grabado debe disponer de una transcripción textual o alternativa en audio con toda la información visual relevante.",
+          "url": "https://wikiwcag.udl.cat/Principio_1/1.2_Medios_basados_en_el_tiempo/1.2.1-B"
+        }
+      ]
+    },
+  
+    {
+      "principio": {
+        "id": "1",
+        "titulo": "Perceptible",
+        "url": "https://wikiwcag.udl.cat/Principio_1"
+      },
+      "pauta": {
+        "id": "1.2",
+        "titulo": "Medios basados en el tiempo",
+        "url": "https://wikiwcag.udl.cat/Principio_1/1.2_Medios_basados_en_el_tiempo"
+      },
+      "id": "1.2.2",
+      "titulo": "Subtítulos (Grabados)",
+      "nivel": "A",
+      "version": "2.1",
+      "grupo": "Contenido",
+      "subgrupo": "Medios temporales",
+      "descripcion": "Objetivo: permitir a las personas con discapacidades auditivas ver la presentación multimedia original sin perder información.",
+      "url": "https://wikiwcag.udl.cat/Principio_1/1.2_Medios_basados_en_el_tiempo#1.2.2",
+      "discapacidades": [
+        {
+          "id": "auditiva",
+          "titulo": "Discapacidad auditiva",
+          "icon": "https://wikiwcag.udl.cat/images/9/98/Auditiva.png"
+        }
+      ],
+      "subcriterios": [
+        {
+          "id": "1.2.2-A",
+          "titulo": "Subtítulos grabados",
+          "descripcion": "Los contenidos multimedia grabados deben disponer de subtítulos sincronizados con toda la información auditiva relevante.",
+          "url": "https://wikiwcag.udl.cat/Principio_1/1.2_Medios_basados_en_el_tiempo/1.2.2-A"
+        }
+      ]
+    },
+  
+    {
+      "principio": {
+        "id": "1",
+        "titulo": "Perceptible",
+        "url": "https://wikiwcag.udl.cat/Principio_1"
+      },
+      "pauta": {
+        "id": "1.2",
+        "titulo": "Medios basados en el tiempo",
+        "url": "https://wikiwcag.udl.cat/Principio_1/1.2_Medios_basados_en_el_tiempo"
+      },
+      "id": "1.2.3",
+      "titulo": "Audiodescripción o medio alternativo (Grabado)",
+      "nivel": "A",
+      "version": "2.1",
+      "grupo": "Contenido",
+      "subgrupo": "Medios temporales",
+      "descripcion": "Objetivo: permitir a las personas con discapacidades visuales acceder al contenido multimedia sin perder información.",
+      "url": "https://wikiwcag.udl.cat/Principio_1/1.2_Medios_basados_en_el_tiempo#1.2.3",
+      "discapacidades": [
+        {
+          "id": "visual",
+          "titulo": "Discapacidad visual",
+          "icon": "https://wikiwcag.udl.cat/images/4/4d/Sinvision.png"
+        }
+      ],
+      "subcriterios": [
+        {
+          "id": "1.2.3-A",
+          "titulo": "Audiodescripción grabada o medio alternativo",
+          "descripcion": "El contenido multimedia grabado debe disponer de audiodescripción o una transcripción textual completa de la información visual relevante.",
+          "url": "https://wikiwcag.udl.cat/Principio_1/1.2_Medios_basados_en_el_tiempo/1.2.3-A"
+        }
+      ]
+    },
+  
+    {
+      "principio": {
+        "id": "1",
+        "titulo": "Perceptible",
+        "url": "https://wikiwcag.udl.cat/Principio_1"
+      },
+      "pauta": {
+        "id": "1.2",
+        "titulo": "Medios basados en el tiempo",
+        "url": "https://wikiwcag.udl.cat/Principio_1/1.2_Medios_basados_en_el_tiempo"
+      },
+      "id": "1.2.4",
+      "titulo": "Subtítulos (Directo)",
+      "nivel": "AA",
+      "version": "2.1",
+      "grupo": "Contenido",
+      "subgrupo": "Medios temporales",
+      "descripcion": "Objetivo: permitir a las personas con discapacidades auditivas seguir presentaciones multimedia en directo sin perder información.",
+      "url": "https://wikiwcag.udl.cat/Principio_1/1.2_Medios_basados_en_el_tiempo#1.2.4",
+      "discapacidades": [
+        {
+          "id": "auditiva",
+          "titulo": "Discapacidad auditiva",
+          "icon": "https://wikiwcag.udl.cat/images/9/98/Auditiva.png"
+        }
+      ],
+      "subcriterios": [
+        {
+          "id": "1.2.4-A",
+          "titulo": "Subtítulos en directo",
+          "descripcion": "El contenido multimedia en directo debe disponer de subtítulos sincronizados que incluyan toda la información auditiva relevante.",
+          "url": "https://wikiwcag.udl.cat/Principio_1/1.2_Medios_basados_en_el_tiempo/1.2.4-A"
+        }
+      ]
+    },
+  
+    {
+      "principio": {
+        "id": "1",
+        "titulo": "Perceptible",
+        "url": "https://wikiwcag.udl.cat/Principio_1"
+      },
+      "pauta": {
+        "id": "1.2",
+        "titulo": "Medios basados en el tiempo",
+        "url": "https://wikiwcag.udl.cat/Principio_1/1.2_Medios_basados_en_el_tiempo"
+      },
+      "id": "1.2.5",
+      "titulo": "Audiodescripción (Grabada)",
+      "nivel": "AA",
+      "version": "2.1",
+      "grupo": "Contenido",
+      "subgrupo": "Medios temporales",
+      "descripcion": "Objetivo: permitir a las personas con discapacidades visuales acceder al contenido multimedia sin perder información.",
+      "url": "https://wikiwcag.udl.cat/Principio_1/1.2_Medios_basados_en_el_tiempo#1.2.5",
+      "discapacidades": [
+        {
+          "id": "visual",
+          "titulo": "Discapacidad visual",
+          "icon": "https://wikiwcag.udl.cat/images/4/4d/Sinvision.png"
+        }
+      ],
+      "subcriterios": [
+        {
+          "id": "1.2.5-A",
+          "titulo": "Audiodescripción grabada",
+          "descripcion": "El contenido multimedia grabado debe incluir una descripción en audio de toda la información visual relevante.",
+          "url": "https://wikiwcag.udl.cat/Principio_1/1.2_Medios_basados_en_el_tiempo/1.2.5-A"
+        }
+      ]
+    },
+    {
+        "principio": {
+          "id": "1",
+          "titulo": "Perceptible",
+          "url": "https://wikiwcag.udl.cat/Principio_1"
+        },
+        "pauta": {
+          "id": "1.3",
+          "titulo": "Adaptable",
+          "url": "https://wikiwcag.udl.cat/Principio_1/1.3_Adaptable"
+        },
+        "id": "1.3.1",
+        "titulo": "Información y relaciones",
+        "nivel": "A",
+        "version": "2.1",
+        "grupo": "Contenido",
+        "subgrupo": "Estructura",
+        "descripcion": "Asegurar que la información y las relaciones transmitidas a través de la presentación también están disponibles en otros modos, como lectores de pantalla o estilos personalizados.",
+        "url": "https://wikiwcag.udl.cat/Principio_1/1.3_Adaptable#1.3.1",
+        "discapacidades": [
+          {
+            "id": "blind",
+            "titulo": "Ceguera total",
+            "icon": "/assets/Sinvision.png"
+          },
+          {
+            "id": "deafblind",
+            "titulo": "Sordoceguera",
+            "icon": "/assets/Sordoceguera.png"
+          }
+        ],
+        "subcriterios": [
+          {
+            "id": "1.3.1-A",
+            "titulo": "Encabezados adecuados",
+            "descripcion": "Usar elementos de encabezado (<h1>-<h6>) para marcar títulos de secciones.",
+            "url": "https://wikiwcag.udl.cat/Principio_1/1.3_Adaptable/1.3.1-A"
+          },
+          {
+            "id": "1.3.1-B",
+            "titulo": "Evitar falsos encabezados",
+            "descripcion": "No usar etiquetas de encabezado para textos que no actúan como encabezados.",
+            "url": "https://wikiwcag.udl.cat/Principio_1/1.3_Adaptable/1.3.1-B"
+          },
+          {
+            "id": "1.3.1-C",
+            "titulo": "Estructura lógica de encabezados",
+            "descripcion": "La jerarquía de encabezados debe reflejar la estructura lógica del contenido.",
+            "url": "https://wikiwcag.udl.cat/Principio_1/1.3_Adaptable/1.3.1-C"
+          },
+          {
+            "id": "1.3.1-D",
+            "titulo": "Listas estructuradas",
+            "descripcion": "Listas relacionadas deben marcarse con <ol>, <ul> o <dl>.",
+            "url": "https://wikiwcag.udl.cat/Principio_1/1.3_Adaptable/1.3.1-D"
+          },
+          {
+            "id": "1.3.1-E",
+            "titulo": "Evitar listas decorativas",
+            "descripcion": "No usar elementos de lista para fines visuales únicamente.",
+            "url": "https://wikiwcag.udl.cat/Principio_1/1.3_Adaptable/1.3.1-E"
+          },
+          {
+            "id": "1.3.1-F",
+            "titulo": "Tablas estructuradas",
+            "descripcion": "La información tabular debe estructurarse con <table>, <tr>, <th>, <td>.",
+            "url": "https://wikiwcag.udl.cat/Principio_1/1.3_Adaptable/1.3.1-F"
+          },
+          {
+            "id": "1.3.1-G",
+            "titulo": "Celdas de encabezado identificadas",
+            "descripcion": "Las celdas de encabezado deben marcarse con <th>.",
+            "url": "https://wikiwcag.udl.cat/Principio_1/1.3_Adaptable/1.3.1-G"
+          },
+          {
+            "id": "1.3.1-H",
+            "titulo": "Asociación entre celdas",
+            "descripcion": "Debe existir una asociación clara entre <th> y <td>.",
+            "url": "https://wikiwcag.udl.cat/Principio_1/1.3_Adaptable/1.3.1-H"
+          },
+          {
+            "id": "1.3.1-I",
+            "titulo": "Uso de caption",
+            "descripcion": "Tablas con título deben usar <caption> adecuadamente.",
+            "url": "https://wikiwcag.udl.cat/Principio_1/1.3_Adaptable/1.3.1-I"
+          },
+          {
+            "id": "1.3.1-J",
+            "titulo": "Uso de summary",
+            "descripcion": "El atributo summary debe describir la organización de la tabla.",
+            "url": "https://wikiwcag.udl.cat/Principio_1/1.3_Adaptable/1.3.1-J"
+          },
+          {
+            "id": "1.3.1-K",
+            "titulo": "Evitar duplicar caption y summary",
+            "descripcion": "Caption y summary no deben contener la misma información.",
+            "url": "https://wikiwcag.udl.cat/Principio_1/1.3_Adaptable/1.3.1-K"
+          },
+          {
+            "id": "1.3.1-L",
+            "titulo": "Tablas de maquetación limpias",
+            "descripcion": "Tablas de maquetación no deben usar marcado de tablas de datos.",
+            "url": "https://wikiwcag.udl.cat/Principio_1/1.3_Adaptable/1.3.1-L"
+          },
+          {
+            "id": "1.3.1-M",
+            "titulo": "Etiquetas de formulario",
+            "descripcion": "Los campos deben tener etiqueta explícita o título identificativo.",
+            "url": "https://wikiwcag.udl.cat/Principio_1/1.3_Adaptable/1.3.1-M"
+          },
+          {
+            "id": "1.3.1-N",
+            "titulo": "Agrupar campos relacionados",
+            "descripcion": "Debe usarse <fieldset> y <legend> para grupos relacionados.",
+            "url": "https://wikiwcag.udl.cat/Principio_1/1.3_Adaptable/1.3.1-N"
+          },
+          {
+            "id": "1.3.1-O",
+            "titulo": "Agrupar opciones",
+            "descripcion": "Las opciones relacionadas deben agruparse con <optgroup>.",
+            "url": "https://wikiwcag.udl.cat/Principio_1/1.3_Adaptable/1.3.1-O"
+          },
+          {
+            "id": "1.3.1-P",
+            "titulo": "Color e información",
+            "descripcion": "La información transmitida por color debe estar también en texto o marcado.",
+            "url": "https://wikiwcag.udl.cat/Principio_1/1.3_Adaptable/1.3.1-P"
+          },
+          {
+            "id": "1.3.1-Q",
+            "titulo": "Marcado semántico general",
+            "descripcion": "Usar elementos semánticos que reflejen estructura y significado.",
+            "url": "https://wikiwcag.udl.cat/Principio_1/1.3_Adaptable/1.3.1-Q"
+          }
+        ]
+      },
+    
+      {
+        "principio": { "id": "1", "titulo": "Perceptible", "url": "https://wikiwcag.udl.cat/Principio_1" },
+        "pauta": { "id": "1.3", "titulo": "Adaptable", "url": "https://wikiwcag.udl.cat/Principio_1/1.3_Adaptable" },
+        "id": "1.3.2",
+        "titulo": "Secuencia significativa",
+        "nivel": "A",
+        "version": "2.1",
+        "grupo": "Contenido",
+        "subgrupo": "Estructura",
+        "descripcion": "El agente de usuario debe poder presentar el contenido en un orden que mantenga su significado.",
+        "url": "https://wikiwcag.udl.cat/Principio_1/1.3_Adaptable#1.3.2",
+        "discapacidades": [
+          { "id": "blind", "titulo": "Ceguera total", "icon": "/assets/Sinvision.png" }
+        ],
+        "subcriterios": [
+          {
+            "id": "1.3.2-A",
+            "titulo": "Orden lógico de lectura",
+            "url": "https://wikiwcag.udl.cat/Principio_1/1.3_Adaptable/1.3.2-A"
+          },
+          {
+            "id": "1.3.2-B",
+            "titulo": "Tablas de maquetación legibles",
+            "url": "https://wikiwcag.udl.cat/Principio_1/1.3_Adaptable/1.3.2-B"
+          },
+          {
+            "id": "1.3.2-C",
+            "titulo": "Dirección del texto",
+            "url": "https://wikiwcag.udl.cat/Principio_1/1.3_Adaptable/1.3.2-C"
+          }
+        ]
+      },
+    
+      {
+        "principio": { "id": "1", "titulo": "Perceptible", "url": "https://wikiwcag.udl.cat/Principio_1" },
+        "pauta": { "id": "1.3", "titulo": "Adaptable", "url": "https://wikiwcag.udl.cat/Principio_1/1.3_Adaptable" },
+        "id": "1.3.3",
+        "titulo": "Características sensoriales",
+        "nivel": "A",
+        "version": "2.1",
+        "grupo": "Contenido",
+        "subgrupo": "Comprensión",
+        "descripcion": "Las instrucciones no deben depender únicamente de características sensoriales como forma, color, posición u orientación.",
+        "url": "https://wikiwcag.udl.cat/Principio_1/1.3_Adaptable#1.3.3",
+        "discapacidades": [
+          { "id": "blind", "titulo": "Ceguera total", "icon": "/assets/Sinvision.png" },
+          { "id": "lowvision", "titulo": "Baja visión", "icon": "/assets/Bajavision.png" }
+        ],
+        "subcriterios": [
+          {
+            "id": "1.3.3-A",
+            "titulo": "Evitar referencias sensoriales exclusivas",
+            "url": "https://wikiwcag.udl.cat/Principio_1/1.3_Adaptable/1.3.3-A"
+          }
+        ]
+      },
+    
+      {
+        "principio": { "id": "1", "titulo": "Perceptible", "url": "https://wikiwcag.udl.cat/Principio_1" },
+        "pauta": { "id": "1.3", "titulo": "Adaptable", "url": "https://wikiwcag.udl.cat/Principio_1/1.3_Adaptable" },
+        "id": "1.3.4",
+        "titulo": "Orientación",
+        "nivel": "AA",
+        "version": "2.1",
+        "grupo": "Contenido",
+        "subgrupo": "Presentación",
+        "descripcion": "Todo contenido debe ser operable y visible en cualquier orientación (vertical u horizontal), excepto si la orientación es esencial.",
+        "url": "https://wikiwcag.udl.cat/Principio_1/1.3_Adaptable#1.3.4",
+        "discapacidades": [
+          { "id": "lowvision", "titulo": "Baja visión", "icon": "/assets/Bajavision.png" },
+          { "id": "motor", "titulo": "Discapacidad motriz", "icon": "/assets/Motriz.png" }
+        ],
+        "subcriterios": [
+          {
+            "id": "1.3.4-A",
+            "titulo": "Contenido adaptable a la orientación",
+            "url": "https://wikiwcag.udl.cat/Principio_1/1.3_Adaptable/1.3.4-A"
+          }
+        ]
+      },
+    
+      {
+        "principio": { "id": "1", "titulo": "Perceptible", "url": "https://wikiwcag.udl.cat/Principio_1" },
+        "pauta": { "id": "1.3", "titulo": "Adaptable", "url": "https://wikiwcag.udl.cat/Principio_1/1.3_Adaptable" },
+        "id": "1.3.5",
+        "titulo": "Identificar el propósito de la entrada",
+        "nivel": "AA",
+        "version": "2.1",
+        "grupo": "Contenido",
+        "subgrupo": "Formularios",
+        "descripcion": "Los campos de entrada deben identificarse de modo que los navegadores y tecnologías de apoyo puedan inferir automáticamente su finalidad.",
+        "url": "https://wikiwcag.udl.cat/Principio_1/1.3_Adaptable#1.3.5",
+        "discapacidades": [
+          { "id": "motor", "titulo": "Discapacidad motriz", "icon": "/assets/Motriz.png" },
+          { "id": "cognitive", "titulo": "Discapacidad cognitiva", "icon": "/assets/Cognitiva.png" }
+        ],
+        "subcriterios": [
+          {
+            "id": "1.3.5-A",
+            "titulo": "Propósito de los campos de datos",
+            "url": "https://wikiwcag.udl.cat/Principio_1/1.3_Adaptable/1.3.5-A"
+          }
+        ]
+      },
+      {
+        "principio": {
+          "id": "1",
+          "titulo": "Perceptible",
+          "url": "https://wikiwcag.udl.cat/Principio_1"
+        },
+        "pauta": {
+          "id": "1.4",
+          "titulo": "Facilitar ver y escuchar el contenido",
+          "url": "https://wikiwcag.udl.cat/Principio_1/1.4_Distinguible"
+        },
+        "id": "1.4.1",
+        "titulo": "Uso del color",
+        "nivel": "A",
+        "version": "2.1",
+        "grupo": "Contenido",
+        "subgrupo": "Percepción visual",
+        "descripcion": "Asegurar que la información no dependa únicamente del color para ser comprendida.",
+        "url": "https://wikiwcag.udl.cat/Principio_1/1.4_Distinguible#1.4.1",
+        "discapacidades": [
+          { "id": "lowvision", "titulo": "Baja visión", "icon": "/assets/Bajavision.png" }
+        ],
+        "subcriterios": [
+          {
+            "id": "1.4.1-A",
+            "titulo": "No usar solo el color para transmitir información",
+            "url": "https://wikiwcag.udl.cat/Principio_1/1.4_Distinguible/1.4.1-A"
+          },
+          {
+            "id": "1.4.1-B",
+            "titulo": "Diferenciar enlaces del texto circundante",
+            "url": "https://wikiwcag.udl.cat/Principio_1/1.4_Distinguible/1.4.1-B"
+          },
+          {
+            "id": "1.4.1-C",
+            "titulo": "Evitar el color como único recurso en imágenes",
+            "url": "https://wikiwcag.udl.cat/Principio_1/1.4_Distinguible/1.4.1-C"
+          }
+        ]
+      },
+    
+      {
+        "principio": { "id": "1", "titulo": "Perceptible", "url": "https://wikiwcag.udl.cat/Principio_1" },
+        "pauta": { "id": "1.4", "titulo": "Facilitar ver y escuchar el contenido", "url": "https://wikiwcag.udl.cat/Principio_1/1.4_Distinguible" },
+        "id": "1.4.2",
+        "titulo": "Control del audio",
+        "nivel": "A",
+        "version": "2.1",
+        "grupo": "Contenido",
+        "subgrupo": "Audio",
+        "descripcion": "Evitar interferencias entre el sonido de la página y las tecnologías de apoyo.",
+        "url": "https://wikiwcag.udl.cat/Principio_1/1.4_Distinguible#1.4.2",
+        "discapacidades": [
+          { "id": "blind", "titulo": "Ceguera total", "icon": "/assets/Sinvision.png" }
+        ],
+        "subcriterios": [
+          {
+            "id": "1.4.2-A",
+            "titulo": "Control del sonido automático",
+            "url": "https://wikiwcag.udl.cat/Principio_1/1.4_Distinguible/1.4.2-A"
+          }
+        ]
+      },
+    
+      {
+        "principio": { "id": "1", "titulo": "Perceptible", "url": "https://wikiwcag.udl.cat/Principio_1" },
+        "pauta": { "id": "1.4", "titulo": "Facilitar ver y escuchar el contenido", "url": "https://wikiwcag.udl.cat/Principio_1/1.4_Distinguible" },
+        "id": "1.4.3",
+        "titulo": "Contraste (mínimo)",
+        "nivel": "AA",
+        "version": "2.1",
+        "grupo": "Contenido",
+        "subgrupo": "Percepción visual",
+        "descripcion": "Proporcionar contraste suficiente entre texto y fondo para facilitar la lectura.",
+        "url": "https://wikiwcag.udl.cat/Principio_1/1.4_Distinguible#1.4.3",
+        "discapacidades": [
+          { "id": "lowvision", "titulo": "Baja visión", "icon": "/assets/Bajavision.png" }
+        ],
+        "subcriterios": [
+          {
+            "id": "1.4.3-A",
+            "titulo": "Contraste mínimo en texto normal",
+            "url": "https://wikiwcag.udl.cat/Principio_1/1.4_Distinguible/1.4.3-A"
+          },
+          {
+            "id": "1.4.3-B",
+            "titulo": "Contraste mínimo en texto grande",
+            "url": "https://wikiwcag.udl.cat/Principio_1/1.4_Distinguible/1.4.3-B"
+          }
+        ]
+      },
+    
+      {
+        "principio": { "id": "1", "titulo": "Perceptible", "url": "https://wikiwcag.udl.cat/Principio_1" },
+        "pauta": { "id": "1.4", "titulo": "Facilitar ver y escuchar el contenido", "url": "https://wikiwcag.udl.cat/Principio_1/1.4_Distinguible" },
+        "id": "1.4.4",
+        "titulo": "Cambio de tamaño del texto",
+        "nivel": "AA",
+        "version": "2.1",
+        "grupo": "Contenido",
+        "subgrupo": "Percepción visual",
+        "descripcion": "El texto debe poder aumentarse hasta el doble sin pérdida de contenido ni funcionalidad.",
+        "url": "https://wikiwcag.udl.cat/Principio_1/1.4_Distinguible#1.4.4",
+        "discapacidades": [
+          { "id": "lowvision", "titulo": "Baja visión", "icon": "/assets/Bajavision.png" }
+        ],
+        "subcriterios": [
+          {
+            "id": "1.4.4-A",
+            "titulo": "Redimensionar texto sin pérdida",
+            "url": "https://wikiwcag.udl.cat/Principio_1/1.4_Distinguible/1.4.4-A"
+          }
+        ]
+      },
+    
+      {
+        "principio": { "id": "1", "titulo": "Perceptible", "url": "https://wikiwcag.udl.cat/Principio_1" },
+        "pauta": { "id": "1.4", "titulo": "Facilitar ver y escuchar el contenido", "url": "https://wikiwcag.udl.cat/Principio_1/1.4_Distinguible" },
+        "id": "1.4.5",
+        "titulo": "Imágenes de texto",
+        "nivel": "AA",
+        "version": "2.1",
+        "grupo": "Contenido",
+        "subgrupo": "Percepción visual",
+        "descripcion": "Evitar usar imágenes para representar texto si puede lograrse con estilos y contenido real.",
+        "url": "https://wikiwcag.udl.cat/Principio_1/1.4_Distinguible#1.4.5",
+        "discapacidades": [
+          { "id": "lowvision", "titulo": "Baja visión", "icon": "/assets/Bajavision.png" },
+          { "id": "cognitive", "titulo": "Discapacidad cognitiva", "icon": "/assets/Cognitiva.png" }
+        ],
+        "subcriterios": [
+          {
+            "id": "1.4.5-A",
+            "titulo": "Evitar imágenes para representar texto",
+            "url": "https://wikiwcag.udl.cat/Principio_1/1.4_Distinguible/1.4.5-A"
+          }
+        ]
+      },
+    
+      {
+        "principio": { "id": "1", "titulo": "Perceptible", "url": "https://wikiwcag.udl.cat/Principio_1" },
+        "pauta": { "id": "1.4", "titulo": "Facilitar ver y escuchar el contenido", "url": "https://wikiwcag.udl.cat/Principio_1/1.4_Distinguible" },
+        "id": "1.4.10",
+        "titulo": "Reflow",
+        "nivel": "AA",
+        "version": "2.1",
+        "grupo": "Contenido",
+        "subgrupo": "Adaptabilidad visual",
+        "descripcion": "Permitir visualizar el contenido sin necesidad de hacer scroll en dos dimensiones en pantallas pequeñas.",
+        "url": "https://wikiwcag.udl.cat/Principio_1/1.4_Distinguible#1.4.10",
+        "discapacidades": [
+          { "id": "lowvision", "titulo": "Baja visión", "icon": "/assets/Bajavision.png" }
+        ],
+        "subcriterios": [
+          {
+            "id": "1.4.10-A",
+            "titulo": "Evitar scroll en dos dimensiones",
+            "url": "https://wikiwcag.udl.cat/Principio_1/1.4_Distinguible/1.4.10-A"
+          }
+        ]
+      },
+    
+      {
+        "principio": { "id": "1", "titulo": "Perceptible", "url": "https://wikiwcag.udl.cat/Principio_1" },
+        "pauta": { "id": "1.4", "titulo": "Facilitar ver y escuchar el contenido", "url": "https://wikiwcag.udl.cat/Principio_1/1.4_Distinguible" },
+        "id": "1.4.11",
+        "titulo": "Contraste del contenido no textual",
+        "nivel": "AA",
+        "version": "2.1",
+        "grupo": "Contenido",
+        "subgrupo": "Contraste",
+        "descripcion": "Asegurar un contraste mínimo de 3:1 en componentes de interfaz y gráficos.",
+        "url": "https://wikiwcag.udl.cat/Principio_1/1.4_Distinguible#1.4.11",
+        "discapacidades": [
+          { "id": "lowvision", "titulo": "Baja visión", "icon": "/assets/Bajavision.png" }
+        ],
+        "subcriterios": [
+          {
+            "id": "1.4.11-A",
+            "titulo": "Contraste en componentes y gráficos",
+            "url": "https://wikiwcag.udl.cat/Principio_1/1.4_Distinguible/1.4.11-A"
+          }
+        ]
+      },
+    
+      {
+        "principio": { "id": "1", "titulo": "Perceptible", "url": "https://wikiwcag.udl.cat/Principio_1" },
+        "pauta": { "id": "1.4", "titulo": "Facilitar ver y escuchar el contenido", "url": "https://wikiwcag.udl.cat/Principio_1/1.4_Distinguible" },
+        "id": "1.4.12",
+        "titulo": "Espaciado del texto",
+        "nivel": "AA",
+        "version": "2.1",
+        "grupo": "Contenido",
+        "subgrupo": "Legibilidad",
+        "descripcion": "Permitir que el usuario ajuste el espaciado sin pérdida de contenido ni funcionalidad.",
+        "url": "https://wikiwcag.udl.cat/Principio_1/1.4_Distinguible#1.4.12",
+        "discapacidades": [
+          { "id": "lowvision", "titulo": "Baja visión", "icon": "/assets/Bajavision.png" },
+          { "id": "cognitive", "titulo": "Discapacidad cognitiva", "icon": "/assets/Cognitiva.png" }
+        ],
+        "subcriterios": [
+          {
+            "id": "1.4.12-A",
+            "titulo": "Ajustes de espaciado del texto",
+            "url": "https://wikiwcag.udl.cat/Principio_1/1.4_Distinguible/1.4.12-A"
+          }
+        ]
+      },
+    
+      {
+        "principio": { "id": "1", "titulo": "Perceptible", "url": "https://wikiwcag.udl.cat/Principio_1" },
+        "pauta": { "id": "1.4", "titulo": "Facilitar ver y escuchar el contenido", "url": "https://wikiwcag.udl.cat/Principio_1/1.4_Distinguible" },
+        "id": "1.4.13",
+        "titulo": "Contenido con hover o focus",
+        "nivel": "AA",
+        "version": "2.1",
+        "grupo": "Interacción",
+        "subgrupo": "Modales y contenido emergente",
+        "descripcion": "El contenido que aparece u oculta mediante hover o focus debe ser manejable y perceptible.",
+        "url": "https://wikiwcag.udl.cat/Principio_1/1.4_Distinguible#1.4.13",
+        "discapacidades": [
+          { "id": "lowvision", "titulo": "Baja visión", "icon": "/assets/Bajavision.png" },
+          { "id": "motor", "titulo": "Discapacidad motriz", "icon": "/assets/Motriz.png" },
+          { "id": "cognitive", "titulo": "Discapacidad cognitiva", "icon": "/assets/Cognitiva.png" }
+        ],
+        "subcriterios": [
+          {
+            "id": "1.4.13-A",
+            "titulo": "Control de contenido emergente por hover o focus",
+            "url": "https://wikiwcag.udl.cat/Principio_1/1.4_Distinguible/1.4.13-A"
+          }
+        ]
+      }
+
+  ]
+  

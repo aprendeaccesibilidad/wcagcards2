@@ -1,0 +1,417 @@
+[
+  {
+    "principio": {
+      "id": "3",
+      "titulo": "Comprensible",
+      "url": "https://wikiwcag.udl.cat/Principio_3"
+    },
+    "pauta": {
+      "id": "3.1",
+      "titulo": "Texto legible y entendible",
+      "url": "https://wikiwcag.udl.cat/Principio_3/3.1_Legible#Pauta_3.1:_Hacer_el_texto_del_contenido_le%C3%ADble_y_entendible"
+    },
+    "id": "3.1.1",
+    "titulo": "Idioma de la página",
+    "nivel": "A",
+    "version": "2.0",
+    "perfiles": ["Desarrollo", "Contenido"],
+    "grupo": "Lenguaje",
+    "subgrupo": "Idioma",
+    "descripcion": "Identificar el idioma principal de la página para garantizar que los agentes de usuario interpretan correctamente su contenido.",
+    "url": "https://wikiwcag.udl.cat/Principio_3/3.1_Legible#3.1.1_-_IDIOMA_DE_LA_P%C3%81GINA_NIVEL:_A",
+
+    "discapacidades": [
+      { "id": "blind", "titulo": "Ceguera total", "icon": "assets/Sinvision.png" },
+      { "id": "cognitive", "titulo": "Cognitiva", "icon": "assets/Cognitiva.png" },
+      { "id": "learning", "titulo": "Dificultades de aprendizaje", "icon": "assets/LenguajeAprendizaje.png" }
+      
+    ],
+    "subcriterios": [
+      {
+        "id": "3.1.1-A",
+        "titulo": "Idioma de la página",
+        "descripcion": "Se debe identificar el idioma principal de la página mediante los atributos adecuados y un código de idioma correcto.",
+        "url": "https://wikiwcag.udl.cat/Principio_3/3.1_Le%C3%ADble/3.1.1-A#3.1.1-A._Idioma_de_la_p%C3%A1gina"
+      }
+    ]
+  },
+
+  {
+    "principio": { "id": "3", "titulo": "Comprensible", "url": "https://wikiwcag.udl.cat/Principio_3" },
+    "pauta": { "id": "3.1", "titulo": "Texto legible y entendible", "url": "https://wikiwcag.udl.cat/Principio_3/3.1_Legible#Pauta_3.1:_Hacer_el_texto_del_contenido_le%C3%ADble_y_entendible"
+  },
+    
+    "id": "3.1.2",
+    "titulo": "Idioma de las partes",
+    "nivel": "AA",
+    "version": "2.0",
+    "perfiles": ["Desarrollo", "Contenido"],
+    "grupo": "Lenguaje",
+    "subgrupo": "Idioma",
+    "descripcion": "Identificar correctamente los cambios de idioma dentro de una página para garantizar una presentación adecuada.",
+    "url": "https://wikiwcag.udl.cat/Principio_3/3.1_Legible#3.1.2_-_IDIOMA_DE_LAS_PARTES_NIVEL:_AA",
+
+    "discapacidades": [
+      { "id": "blind", "titulo": "Ceguera total", "icon": "assets/Sinvision.png" },
+      { "id": "cognitive", "titulo": "Cognitiva", "icon": "assets/Cognitiva.png" },
+      { "id": "learning", "titulo": "Dificultades de aprendizaje", "icon": "assets/LenguajeAprendizaje.png" }
+    ],
+
+    "subcriterios": [
+      {
+        "id": "3.1.2-A",
+        "titulo": "Idioma de las partes",
+        "descripcion": "Se deben identificar los cambios de idioma mediante los atributos adecuados y códigos correctos.",
+        "url": "https://wikiwcag.udl.cat/Principio_3/3.1_Le%C3%ADble/3.1.2-A#3.1.2-A._Idioma_de_las_partes"
+      }
+    ]
+  },
+
+  {
+    "principio": { "id": "3", "titulo": "Comprensible", "url": "https://wikiwcag.udl.cat/Principio_3" },
+    "pauta": { "id": "3.2", "titulo": "Predecible", "url": "https://wikiwcag.udl.cat/Principio_3/3.2_Predecible#Pauta_3.2:_El_sistema_debe_ser_operable_y_previsible_de_diferentes_formas" },
+    "id": "3.2.1",
+    "titulo": "Al recibir el foco",
+    "nivel": "A",
+    "version": "2.0",
+    "perfiles": ["Desarrollo", "UX"],
+    "grupo": "Interacción",
+    "subgrupo": "Comportamiento",
+    "descripcion": "Evitar cambios de contexto inesperados cuando un elemento recibe el foco.",
+    "url": "https://wikiwcag.udl.cat/Principio_3/3.2_Predecible#3.2.1_-_Al_recibir_el_foco_-_Nivel:_A",
+
+    "discapacidades": [
+      { "id": "blind", "titulo": "Ceguera total", "icon": "assets/Sinvision.png" },
+      { "id": "visual", "titulo": "Discapacidad visual", "icon": "assets/Bajavision.png" },
+      { "id": "motor", "titulo": "Discapacidad motriz", "icon": "assets/Motriz.png" },
+      { "id": "cognitive", "titulo": "Cognitiva", "icon": "assets/Cognitiva.png" }
+    ],
+
+    "subcriterios": [
+      {
+        "id": "3.2.1-A",
+        "titulo": "Al recibir el foco",
+        "descripcion": "Cuando un elemento recibe el foco no debe iniciarse un cambio de contexto.",
+        "url": "https://wikiwcag.udl.cat/Principio_3/3.2_Predecible/3.2.1-A#3.2.1-A._Al_recibir_el_foco"
+      }
+    ]
+  },
+
+  {
+    "principio": { "id": "3", "titulo": "Comprensible", "url": "https://wikiwcag.udl.cat/Principio_3" },
+    "pauta": { "id": "3.2", "titulo": "Predecible", "url": "https://wikiwcag.udl.cat/Principio_3/3.2_Predecible#Pauta_3.2:_El_sistema_debe_ser_operable_y_previsible_de_diferentes_formas" },
+    "id": "3.2.2",
+    "titulo": "Al recibir entradas",
+    "nivel": "A",
+    "version": "2.0",
+    "perfiles": ["Desarrollo", "UX"],
+    "grupo": "Interacción",
+    "subgrupo": "Comportamiento",
+    "descripcion": "Evitar cambios de contexto cuando se modifica un control o elemento de formulario.",
+    "url": "https://wikiwcag.udl.cat/Principio_3/3.2_Predecible#3.2.2_-_Al_recibir_entradas_-_Nivel:_A",
+
+    "discapacidades": [
+      { "id": "blind", "titulo": "Ceguera total", "icon": "assets/Sinvision.png" },
+      { "id": "lowvision", "titulo": "Baja visión", "icon": "assets/Bajavision.png" },
+      { "id": "learning", "titulo": "Dificultades de aprendizaje", "icon": "assets/LenguajeAprendizaje.png" }
+
+    ],
+
+    "subcriterios": [
+      {
+        "id": "3.2.2-A",
+        "titulo": "Al recibir entradas",
+        "descripcion": "No provocar cambios de contexto al modificar valores o estados de un control, salvo si se ha informado previamente.",
+        "url": "https://wikiwcag.udl.cat/Principio_3/3.2_Predecible/3.2.2-A#3.2.2-A._Al_recibir_entradas"
+      }
+    ]
+  },
+
+  {
+    "principio": { "id": "3", "titulo": "Comprensible", "url": "https://wikiwcag.udl.cat/Principio_3" },
+    "pauta": { "id": "3.2", "titulo": "Predecible", "url": "https://wikiwcag.udl.cat/Principio_3/3.2_Predecible#Pauta_3.2:_El_sistema_debe_ser_operable_y_previsible_de_diferentes_formas" },
+    "id": "3.2.3",
+    "titulo": "Navegación coherente",
+    "nivel": "AA",
+    "version": "2.0",
+    "perfiles": ["UX"],
+    "grupo": "Interacción",
+    "subgrupo": "Estructura",
+    "descripcion": "Los mecanismos de navegación deben repetirse siempre en el mismo orden relativo.",
+    "url": "https://wikiwcag.udl.cat/Principio_3/3.2_Predecible#3.2.3_-_Navegaci%C3%B3n_coherente_-_Nivel:_AA",
+
+    "discapacidades": [
+      { "id": "blind", "titulo": "Ceguera total", "icon": "assets/Sinvision.png" },
+      { "id": "visual", "titulo": "Limitación visual", "icon": "assets/Bajavision.png" },
+      { "id": "cognitive", "titulo": "Cognitiva", "icon": "assets/Cognitiva.png" }
+    ],
+
+    "subcriterios": [
+      {
+        "id": "3.2.3-A",
+        "titulo": "Navegación coherente",
+        "descripcion": "Los elementos de navegación repetidos deben aparecer siempre en el mismo orden.",
+        "url": "https://wikiwcag.udl.cat/Principio_3/3.2_Predecible/3.2.3-A#3.2.3-A._Navegaci%C3%B3n_coherente"
+      }
+    ]
+  },
+
+  {
+    "principio": { "id": "3", "titulo": "Comprensible", "url": "https://wikiwcag.udl.cat/Principio_3" },
+    "pauta": { "id": "3.2", "titulo": "Predecible", "url": "https://wikiwcag.udl.cat/Principio_3/3.2_Predecible#Pauta_3.2:_El_sistema_debe_ser_operable_y_previsible_de_diferentes_formas" },
+    "id": "3.2.4",
+    "titulo": "Identificación coherente",
+    "nivel": "AA",
+    "version": "2.0",
+    "perfiles": ["UX", "Desarrollo"],
+    "grupo": "Interacción",
+    "subgrupo": "Estructura",
+    "descripcion": "Los elementos con una misma funcionalidad deben identificarse de forma consistente.",
+    "url": "https://wikiwcag.udl.cat/Principio_3/3.2_Predecible#3.2.4_-_Identificaci%C3%B3n_coherente_-_Nivel:_AA",
+
+    "discapacidades": [
+      { "id": "blind", "titulo": "Ceguera total", "icon": "assets/Sinvision.png" },
+      { "id": "learning", "titulo": "Dificultades de aprendizaje", "icon": "assets/LenguajeAprendizaje.png" }
+    ],
+
+    "subcriterios": [
+      {
+        "id": "3.2.4-A",
+        "titulo": "Identificación coherente",
+        "descripcion": "Los elementos con igual función deben identificarse consistentemente en todo el sitio.",
+        "url": "https://wikiwcag.udl.cat/Principio_3/3.2_Predecible/3.2.4-A#3.2.4-A._Identificaci%C3%B3n_coherente"
+      }
+    ]
+  },
+
+  {
+    "principio": { "id": "3", "titulo": "Comprensible", "url": "https://wikiwcag.udl.cat/Principio_3" },
+    "pauta": { "id": "3.2", "titulo": "Predecible", "url": "https://wikiwcag.udl.cat/Principio_3/3.2_Predecible#Pauta_3.2:_El_sistema_debe_ser_operable_y_previsible_de_diferentes_formas" },
+    "id": "3.2.6",
+    "titulo": "Ayuda consistente",
+    "nivel": "A",
+    "version": "2.2",
+    "perfiles": ["Desarrollo", "UX"],
+    "grupo": "Interacción",
+    "subgrupo": "Soporte",
+    "descripcion": "Los mecanismos de ayuda repetidos deben aparecer siempre en el mismo orden relativo.",
+    "url": "https://wikiwcag.udl.cat/Principio_3/3.2_Predecible#3.2.6_-_Ayuda_consistente_-_Nivel:_A",
+
+    "discapacidades": [
+      { "id": "blind", "titulo": "Ceguera total", "icon": "assets/Sinvision.png" },
+      { "id": "cognitive", "titulo": "Discapacidad cognitiva", "icon": "assets/Cognitiva.png" },
+      { "id": "learning", "titulo": "Dificultades de aprendizaje", "icon": "assets/LenguajeAprendizaje.png" }
+    ],
+
+    "subcriterios": [
+      {
+        "id": "3.2.6-A",
+        "titulo": "Ayuda consistente",
+        "descripcion": "Los mecanismos de ayuda (contacto, FAQs, soporte automatizado...) deben mantenerse en el mismo orden relativo entre páginas.",
+        "url": "https://wikiwcag.udl.cat/Principio_3/3.2_Predecible/3.2.6-A#3.2.6-A._Ayuda_consistente"
+      }
+    ]
+  },
+
+  {
+    "principio": { "id": "3", "titulo": "Comprensible", "url": "https://wikiwcag.udl.cat/Principio_3" },
+    "pauta": { "id": "3.3", "titulo": "Asistencia a la entrada", "url": "https://wikiwcag.udl.cat/Principio_3/3.3_Assistencia_en_los_input#Pauta_3.3:_Asistencia_a_la_entrada_de_datos" },
+    "id": "3.3.1",
+    "titulo": "Identificación de errores",
+    "nivel": "A",
+    "version": "2.0",
+    "perfiles": ["Desarrollo", "UX", "Contenido"],
+    "grupo": "Lenguaje",
+    "subgrupo": "Formularios",
+    "descripcion": "Asegurar que los usuarios perciben claramente dónde se ha producido un error al introducir datos.",
+    "url": "https://wikiwcag.udl.cat/Principio_3/3.3_Assistencia_en_los_input#3.3.1_-_Identificaci%C3%B3n_de_errores_-_Nivel:_A",
+
+    "discapacidades": [
+      { "id": "blind", "titulo": "Ceguera total", "icon": "assets/Sinvision.png" },
+      { "id": "colorblind", "titulo": "Daltonismo", "icon": "assets/Daltonismo.png" },
+      { "id": "cognitive", "titulo": "Cognitiva", "icon": "assets/Cognitiva.png" },
+      { "id": "learning", "titulo": "Dificultades de aprendizaje", "icon": "assets/LenguajeAprendizaje.png" }
+    ],
+
+    "subcriterios": [
+      {
+        "id": "3.3.1-A",
+        "titulo": "Identificación de errores",
+        "descripcion": "Debe identificarse explícitamente cualquier campo obligatorio no completado.",
+        "url": "https://wikiwcag.udl.cat/Principio_3/3.3_Assistencia_en_los_input/3.3.1-A#3.3.1-A._Identificaci%C3%B3n_de_errores"
+      },
+      {
+        "id": "3.3.1-B",
+        "titulo": "Descripción de errores",
+        "descripcion": "Los errores deben describirse textualmente indicando el formato o valor correcto esperado.",
+        "url": "https://wikiwcag.udl.cat/Principio_3/3.3_Assistencia_en_los_input/3.3.1-B#3.3.1-B._Descripci%C3%B3n_de_errores"
+      }
+    ]
+  },
+
+  {
+    "principio": { "id": "3", "titulo": "Comprensible", "url": "https://wikiwcag.udl.cat/Principio_3" },
+    "pauta": { "id": "3.3", "titulo": "Asistencia a la entrada", "url": "https://wikiwcag.udl.cat/Principio_3/3.3_Assistencia_en_los_input#Pauta_3.3:_Asistencia_a_la_entrada_de_datos" },
+    "id": "3.3.2",
+    "titulo": "Etiquetas o instrucciones",
+    "nivel": "A",
+    "version": "2.0",
+    "perfiles": ["UX", "Contenido", "Desarrollo"],
+    "grupo": "Lenguaje",
+    "subgrupo": "Formularios",
+    "descripcion": "Ofrecer etiquetas claras, instrucciones y marcadores de campos obligatorios para evitar errores al introducir datos.",
+    "url": "https://wikiwcag.udl.cat/Principio_3/3.3_Assistencia_en_los_input#3.3.2_-_Etiquetas_o_instrucciones_-_Nivel:_A",
+
+    "discapacidades": [
+      { "id": "blind", "titulo": "Ceguera total", "icon": "assets/Sinvision.png" },
+      { "id": "cognitive", "titulo": "Cognitiva", "icon": "assets/Cognitiva.png" },
+      { "id": "learning", "titulo": "Dificultades de aprendizaje", "icon": "assets/LenguajeAprendizaje.png" }
+      
+    ],
+
+    "subcriterios": [
+      {
+        "id": "3.3.2-A",
+        "titulo": "Etiquetas visibles",
+        "descripcion": "Las etiquetas de formulario deben ser visibles y descriptivas.",
+        "url": "https://wikiwcag.udl.cat/Principio_3/3.3_Assistencia_en_los_input/3.3.2-A#3.3.2-A._Etiquetas_visibles"
+      },
+      {
+        "id": "3.3.2-B",
+        "titulo": "Ubicación de etiquetas",
+        "descripcion": "Las etiquetas deben estar situadas de forma que su relación con el campo sea evidente.",
+        "url": "https://wikiwcag.udl.cat/Principio_3/3.3_Assistencia_en_los_input/3.3.2-B#3.3.2-B._Ubicaci%C3%B3n_de_etiquetas"
+      },
+      {
+        "id": "3.3.2-C",
+        "titulo": "Campos obligatorios",
+        "descripcion": "Los campos obligatorios deben identificarse adecuadamente.",
+        "url": "https://wikiwcag.udl.cat/Principio_3/3.3_Assistencia_en_los_input/3.3.2-C#3.3.2-C._Campos_obligatorios"
+      },
+      {
+        "id": "3.3.2-D",
+        "titulo": "Instrucciones de cumplimentación",
+        "descripcion": "Debe proporcionarse la información necesaria para rellenar los datos correctamente, indicando formato, valores y ejemplos cuando corresponda.",
+        "url": "https://wikiwcag.udl.cat/Principio_3/3.3_Assistencia_en_los_input/3.3.2-D#3.3.2-D._Instrucciones_de_cumplimentaci%C3%B3n"
+      }
+    ]
+  },
+
+  {
+    "principio": { "id": "3", "titulo": "Comprensible", "url": "https://wikiwcag.udl.cat/Principio_3" },
+    "pauta": { "id": "3.3", "titulo": "Asistencia a la entrada", "url": "https://wikiwcag.udl.cat/Principio_3/3.3_Assistencia_en_los_input#Pauta_3.3:_Asistencia_a_la_entrada_de_datos" },
+    "id": "3.3.3",
+    "titulo": "Sugerencias ante errores",
+    "nivel": "AA",
+    "version": "2.0",
+    "perfiles": ["UX", "Contenido", "Desarrollo"],
+    "grupo": "Lenguaje",
+    "subgrupo": "Formulario",
+    "descripcion": "Proporcionar sugerencias para que los usuarios puedan corregir errores en los formularios.",
+    "url": "https://wikiwcag.udl.cat/Principio_3/3.3_Assistencia_en_los_input#3.3.3_-_Sugerencias_ante_errores_-_Nivel:_AA",
+
+    "discapacidades": [
+      { "id": "blind", "titulo": "Ceguera total", "icon": "assets/Sinvision.png" },
+      { "id": "lowvision", "titulo": "Baja visión", "icon": "assets/Bajavision.png" },
+      { "id": "motor", "titulo": "Motriz", "icon": "assets/Motriz.png" },
+      { "id": "learning", "titulo": "Dificultades de aprendizaje", "icon": "assets/LenguajeAprendizaje.png" }
+    ],
+
+    "subcriterios": [
+      {
+        "id": "3.3.3-A",
+        "titulo": "Sugerencias ante errores",
+        "descripcion": "Cuando se detecte un error en un formulario deben proporcionarse sugerencias para corregirlo, siempre que no comprometa la seguridad.",
+        "url": "https://wikiwcag.udl.cat/Principio_3/3.3_Assistencia_en_los_input/3.3.3-A#3.3.3-A._Sugerencias_ante_errores"
+      }
+    ]
+  },
+
+  {
+    "principio": { "id": "3", "titulo": "Comprensible", "url": "https://wikiwcag.udl.cat/Principio_3" },
+    "pauta": { "id": "3.3", "titulo": "Asistencia a la entrada", "url": "https://wikiwcag.udl.cat/Principio_3/3.3_Assistencia_en_los_input#Pauta_3.3:_Asistencia_a_la_entrada_de_datos" },
+    "id": "3.3.4",
+    "titulo": "Prevención de errores (legal, financiera, datos)",
+    "nivel": "AA",
+    "version": "2.0",
+    "perfiles": ["UX", "Desarrollo"],
+    "grupo": "Lenguaje",
+    "subgrupo": "Formulario",
+    "descripcion": "Evitar errores que puedan tener consecuencias graves para los usuarios.",
+    "url": "https://wikiwcag.udl.cat/Principio_3/3.3_Assistencia_en_los_input#3.3.4_-_Prevenci%C3%B3n_de_errores_(legales,_financieros,_datos)_-_Nivel:_AA",
+
+    "discapacidades": [
+      { "id": "blind", "titulo": "Ceguera total", "icon": "assets/Sinvision.png" },
+      { "id": "lowvision", "titulo": "Baja visión", "icon": "assets/Bajavision.png" },
+      { "id": "colorblind", "titulo": "Daltonismo", "icon": "assets/Daltonismo.png" },
+      { "id": "deaf", "titulo": "Discapacidad auditiva", "icon": "assets/Auditiva.png" },
+      { "id": "motor", "titulo": "Discapacidad motriz", "icon": "assets/Motriz.png" },
+      { "id": "cognitive", "titulo": "Discapacidad cognitiva", "icon": "assets/Cognitiva.png" },
+      { "id": "learning", "titulo": "Dificultades de aprendizaje y lenguaje", "icon": "assets/LenguajeAprendizaje.png" }
+    ],
+
+    "subcriterios": [
+      {
+        "id": "3.3.4-A",
+        "titulo": "Prevención de errores",
+        "descripcion": "Las acciones críticas deben ser reversibles, confirmables o revisables antes de enviarse.",
+        "url": "https://wikiwcag.udl.cat/Principio_3/3.3_Assistencia_en_los_input/3.3.4-A#3.3.4-A._Prevenci%C3%B3n_de_errores_(legales,_financieros_o_datos)"
+      }
+    ]
+  },
+
+  {
+    "principio": { "id": "3", "titulo": "Comprensible", "url": "https://wikiwcag.udl.cat/Principio_3" },
+    "pauta": { "id": "3.3", "titulo": "Asistencia a la entrada", "url": "https://wikiwcag.udl.cat/Principio_3/3.3_Assistencia_en_los_input#Pauta_3.3:_Asistencia_a_la_entrada_de_datos" },
+    "id": "3.3.7",
+    "titulo": "Entrada redundante",
+    "nivel": "A",
+    "version": "2.2",
+    "perfiles": ["UX", "Desarrollo"],
+    "grupo": "Lenguaje",
+    "subgrupo": "Formulario",
+    "descripcion": "Evitar solicitar varias veces la misma información en un formulario.",
+    "url": "https://wikiwcag.udl.cat/Principio_3/3.3_Assistencia_en_los_input#3.3.7_-_Entrada_redundante_-_Nivel:_A",
+
+    "discapacidades": [
+      { "id": "cognitive", "titulo": "Cognitiva", "icon": "assets/Cognitiva.png" }
+    ],
+
+    "subcriterios": [
+      {
+        "id": "3.3.7-A",
+        "titulo": "Entrada redundante",
+        "descripcion": "La información previamente proporcionada debe autocompletarse o seleccionarse, salvo excepciones de seguridad o validez.",
+        "url": "https://wikiwcag.udl.cat/Principio_3/3.3_Assistencia_en_los_input/3.3.7-A#3.3.7-A._Entrada_redundante"
+      }
+    ]
+  },
+
+  {
+    "principio": { "id": "3", "titulo": "Comprensible", "url": "https://wikiwcag.udl.cat/Principio_3" },
+    "pauta": { "id": "3.3", "titulo": "Asistencia a la entrada", "url": "https://wikiwcag.udl.cat/Principio_3/3.3_Assistencia_en_los_input#Pauta_3.3:_Asistencia_a_la_entrada_de_datos" },
+    "id": "3.3.8",
+    "titulo": "Autenticación accesible",
+    "nivel": "AA",
+    "version": "2.2",
+    "perfiles": ["UX", "Desarrollo", "Contenido"],
+    "grupo": "Lenguaje",
+    "subgrupo": "Autenticación",
+    "descripcion": "Garantizar métodos de autenticación que no dependan exclusivamente de funciones cognitivas complejas.",
+    "url": "https://wikiwcag.udl.cat/Principio_3/3.3_Assistencia_en_los_input#3.3.8_-_Autenticaci%C3%B3n_accessible_-_Nivel:_AA",
+
+    "discapacidades": [
+      { "id": "blind", "titulo": "Ceguera total", "icon": "assets/Sinvision.png" },
+      { "id": "cognitive", "titulo": "Cognitiva", "icon": "assets/Cognitiva.png" }
+    ],
+
+    "subcriterios": [
+      {
+        "id": "3.3.8-A",
+        "titulo": "Autenticación accesible",
+        "descripcion": "Una prueba cognitiva (como recordar una contraseña) no debe ser obligatoria sin una alternativa accesible o mecanismos de ayuda.",
+        "url": "https://wikiwcag.udl.cat/Principio_3/3.3_Assistencia_en_los_input/3.3.8-A#3.3.8-A._Autenticaci%C3%B3n_accesible"
+      }
+    ]
+  }
+]

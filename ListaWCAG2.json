@@ -1,0 +1,671 @@
+[
+  {
+    "principio": {
+      "id": "2",
+      "titulo": "Operable",
+      "url": "https://wikiwcag.udl.cat/Principio_2"
+    },
+    "pauta": {
+      "id": "2.1",
+      "titulo": "Accesible por teclado",
+      "url": "https://wikiwcag.udl.cat/Principio_2/2.1_Teclado_Accesible#Pauta_2.1:_Poder_controlar_todas_las_funciones_desde_el_teclado."
+    },
+    "id": "2.1.1",
+    "titulo": "Teclado",
+    "nivel": "A",
+    "version": "2.0",
+    "perfiles": ["UX", "Desarrollo"],
+    "grupo": "Interacción",
+    "subgrupo": "Teclado",
+    "descripcion": "Toda la funcionalidad del contenido debe poder operarse únicamente mediante teclado, sin requerir el uso del ratón y sin exigir tiempos específicos.",
+    "url": "https://wikiwcag.udl.cat/Principio_2/2.1_Teclado_Accesible#2.1.1_-_Teclado_-_Nivel:_A",
+
+    "discapacidades": [
+      { "id": "blind", "titulo": "Ceguera total", "icon": "assets/Sinvision.png" },
+      { "id": "lowvision", "titulo": "Baja visión", "icon": "assets/Bajavision.png" },
+      { "id": "handtremors", "titulo": "Temblor en manos", "icon": "assets/Motriz.png" }
+    ],
+
+    "subcriterios": [
+      {
+        "id": "2.1.1-A",
+        "titulo": "Teclado accesible",
+        "descripcion": "Toda la funcionalidad de la página debe ser operable a través del teclado, excepto cuando dicha funcionalidad sea imposible realizarse mediante este método.",
+        "url": "https://wikiwcag.udl.cat/Principio_2/2.1_Teclado_Accesible/2.1.1-A#2.1.1-A._Teclado_accesible"
+      }
+    ]
+  },
+
+  {
+    "principio": {
+      "id": "2",
+      "titulo": "Operable",
+      "url": "https://wikiwcag.udl.cat/Principio_2"
+    },
+    "pauta": {
+      "id": "2.1",
+      "titulo": "Accesible por teclado",
+      "url": "https://wikiwcag.udl.cat/Principio_2/2.1_Teclado_Accesible#Pauta_2.1:_Poder_controlar_todas_las_funciones_desde_el_teclado."
+    },
+    "id": "2.1.2",
+    "titulo": "Sin trampas para el foco del teclado",
+    "nivel": "A",
+    "version": "2.0",
+    "perfiles": ["UX", "Desarrollo"],
+    "grupo": "Interacción",
+    "subgrupo": "Teclado",
+    "descripcion": "Evitar que el foco del teclado quede atrapado en algún elemento, impidiendo que el usuario avance o retroceda mediante tabulación normal.",
+    "url": "https://wikiwcag.udl.cat/Principio_2/2.1_Teclado_Accesible#2.1.2_-_Sin_trampas_par_el_foco_del_teclado_-_Nivel:_A",
+
+    "discapacidades": [
+      { "id": "blind", "titulo": "Ceguera total", "icon": "assets/Sinvision.png" },
+      { "id": "motor", "titulo": "Discapacidad motriz", "icon": "assets/Motriz.png" }
+    ],
+
+    "subcriterios": [
+      {
+        "id": "2.1.2-A",
+        "titulo": "Sin trampas para el foco",
+        "descripcion": "El foco del teclado no debe quedar atrapado en ningún componente, y siempre debe existir un mecanismo para moverlo fuera de cualquier elemento.",
+        "url": "https://wikiwcag.udl.cat/Principio_2/2.1_Teclado_Accesible/2.1.2-A#2.1.2-A._Sin_trampas_para_el_foco"
+      }
+    ]
+  },
+
+  {
+    "principio": {
+      "id": "2",
+      "titulo": "Operable",
+      "url": "https://wikiwcag.udl.cat/Principio_2"
+    },
+    "pauta": {
+      "id": "2.1",
+      "titulo": "Accesible por teclado",
+      "url": "https://wikiwcag.udl.cat/Principio_2/2.1_Teclado_Accesible#Pauta_2.1:_Poder_controlar_todas_las_funciones_desde_el_teclado."
+    },
+    "id": "2.1.4",
+    "titulo": "Atajos de teclado",
+    "nivel": "A",
+    "version": "2.1",
+    "perfiles": ["Desarrollo", "UX"],
+    "grupo": "Interacción",
+    "subgrupo": "Teclado",
+    "descripcion": "Evitar activaciones involuntarias causadas por atajos de teclado basados en una única tecla imprimible, especialmente para usuarios que emplean control por voz.",
+    "url": "https://wikiwcag.udl.cat/Principio_2/2.1_Teclado_Accesible#2.1.4_%E2%80%93_Atajos_con_teclas_de_car%C3%A1cteres_-_Nivel:_A",
+
+    "discapacidades": [
+      { "id": "motor", "titulo": "Discapacidad motriz", "icon": "assets/Motriz.png" },
+      { "id": "learning", "titulo": "Dificultades de aprendizaje", "icon": "assets/Cognitiva.png" }
+    ],
+
+    "subcriterios": [
+      {
+        "id": "2.1.4-A",
+        "titulo": "Control de atajos de teclado",
+        "descripcion": "Si existen atajos de teclado basados en una sola tecla, se debe permitir al usuario desactivarlos, reasignarlos a teclas no imprimibles o exigir que el componente tenga el foco antes de activarse.",
+        "url": "https://wikiwcag.udl.cat/Principio_2/2.1_Teclado_Accesible/2.1.4-A#2.1.4-A._Atajos_de_teclado"
+      }
+    ]
+  },
+
+  {
+    "principio": {
+      "id": "2",
+      "titulo": "Operable",
+      "url": "https://wikiwcag.udl.cat/Principio_2"
+    },
+    "pauta": {
+      "id": "2.2",
+      "titulo": "Tiempo suficiente",
+      "url": "https://wikiwcag.udl.cat/Principio_2/2.2_Tiempo_Suficiente#Pauta_2.2:_Proporciona_tiempo_suficiente_para_leer_y_utilizar_el_contenido."
+    },
+    "id": "2.2.1",
+    "titulo": "Tiempo ajustable",
+    "nivel": "A",
+    "version": "2.0",
+    "perfiles": ["UX", "Desarrollo"],
+    "grupo": "Interacción",
+    "subgrupo": "Tiempo",
+    "descripcion": "Asegurar que los usuarios disponen de tiempo suficiente para leer y utilizar el contenido, y que cualquier límite temporal pueda ser ajustado, detenido o extendido.",
+    "url": "https://wikiwcag.udl.cat/Principio_2/2.2_Tiempo_Suficiente#2.2.1_-_TIEMPO_AJUSTABLE_NIVEL:_A",
+
+    "discapacidades": [
+      { "id": "blind", "titulo": "Ceguera total", "icon": "assets/Sinvision.png" },
+      { "id": "deaf", "titulo": "Discapacidad auditiva", "icon": "assets/Auditiva.png" },
+      { "id": "lowvision", "titulo": "Baja visión", "icon": "assets/Bajavision.png" },
+      { "id": "motor", "titulo": "Discapacidad motriz", "icon": "assets/Motriz.png" },
+      { "id": "cognitive", "titulo": "Discapacidad cognitiva", "icon": "assets/Cognitiva.png" },
+      { "id": "learning", "titulo": "Dificultades de aprendizaje", "icon": "assets/LenguajeAprendizaje.png" }
+    ],
+
+    "subcriterios": [
+      {
+        "id": "2.2.1-A",
+        "titulo": "Tiempo ajustable",
+        "descripcion": "Si existe un límite de tiempo para leer o interactuar con el contenido, el usuario debe poder detenerlo, extenderlo o ajustarlo, salvo casos esenciales o mayores a 20 horas.",
+        "url": "https://wikiwcag.udl.cat/Principio_2/2.2_Tiempo_Suficiente/2.2.1-A#2.2.1-A._Tiempo_ajustable"
+      },
+      {
+        "id": "2.2.1-B",
+        "titulo": "Redirecciones automáticas sin límite de tiempo",
+        "descripcion": "Las redirecciones automáticas deben ser instantáneas y transparentes, sin imponer tiempos de espera.",
+        "url": "https://wikiwcag.udl.cat/Principio_2/2.2_Tiempo_Suficiente/2.2.1-B#2.2.1-B._Redirecciones_autom%C3%A1ticas_sin_l%C3%ADmite_de_tiempo"
+      },
+      {
+        "id": "2.2.1-C",
+        "titulo": "Actualizaciones automáticas",
+        "descripcion": "Las actualizaciones automáticas deben ofrecer controles para detener, extender o ajustar la frecuencia de actualización.",
+        "url": "https://wikiwcag.udl.cat/Principio_2/2.2_Tiempo_Suficiente/2.2.1-C#2.2.1-C._Actualizaciones_autom%C3%A1ticas_con_control_del_usuario"
+      }
+    ]
+  },
+
+  {
+    "principio": {
+      "id": "2",
+      "titulo": "Operable",
+      "url": "https://wikiwcag.udl.cat/Principio_2"
+    },
+    "pauta": {
+      "id": "2.2",
+      "titulo": "Tiempo suficiente",
+      "url": "https://wikiwcag.udl.cat/Principio_2/2.2_Tiempo_Suficiente#Pauta_2.2:_Proporciona_tiempo_suficiente_para_leer_y_utilizar_el_contenido."
+    },
+    "id": "2.2.2",
+    "titulo": "Pausar, detener, ocultar",
+    "nivel": "A",
+    "version": "2.0",
+    "perfiles": ["UX", "Desarrollo"],
+    "grupo": "Interacción",
+    "subgrupo": "Tiempo",
+    "descripcion": "Evitar distracciones permitiendo pausar, detener u ocultar contenido en movimiento o actualizaciones automáticas.",
+    "url": "https://wikiwcag.udl.cat/Principio_2/2.2_Tiempo_Suficiente#2.2.2_%E2%80%93_PAUSAR,_DETENER,_OCULTAR_NIVEL:_A",
+
+    "discapacidades": [
+      { "id": "deaf", "titulo": "Discapacidad auditiva", "icon": "assets/Auditiva.png" }
+    ],
+
+    "subcriterios": [
+      {
+        "id": "2.2.2-A",
+        "titulo": "Contenido en movimiento",
+        "descripcion": "El contenido que se mueve automáticamente por más de cinco segundos debe poder pausarse, detenerse u ocultarse.",
+        "url": "https://wikiwcag.udl.cat/Principio_2/2.2_Tiempo_Suficiente/2.2.2-A#2.2.2-A._Contenido_en_movimiento,_parpadeo_o_desplazamiento"
+      },
+      {
+        "id": "2.2.2-B",
+        "titulo": "Actualizaciones parciales",
+        "descripcion": "El usuario debe poder pausar, detener, ocultar o controlar la frecuencia de actualizaciones parciales automáticas.",
+        "url": "https://wikiwcag.udl.cat/Principio_2/2.2_Tiempo_Suficiente/2.2.2-B#2.2.2-B._Actualizaciones_parciales_autom%C3%A1ticas"
+      }
+    ]
+  },
+
+  {
+    "principio": {
+      "id": "2",
+      "titulo": "Operable",
+      "url": "https://wikiwcag.udl.cat/Principio_2"
+    },
+    "pauta": {
+      "id": "2.3",
+      "titulo": "Convulsiones y reacciones físicas",
+      "url": "https://wikiwcag.udl.cat/Principio_2/2.3_Reacciones_f%C3%ADsicas#Pauta_2.3:_No_dise%C3%B1ar_contenido_que_cause_ataques_epil%C3%A9pticos."
+    },
+    "id": "2.3.1",
+    "titulo": "Umbral de tres destellos o menos",
+    "nivel": "A",
+    "version": "2.0",
+    "perfiles": ["UX", "UI"],
+    "grupo": "Interacción",
+    "subgrupo": "Seguridad visual",
+    "descripcion": "Evitar ataques fotosensitivos asegurando que el contenido no presenta destellos superiores a tres por segundo o que el área destellante es suficientemente pequeña.",
+    "url": "https://wikiwcag.udl.cat/Principio_2/2.3_Reacciones_f%C3%ADsicas#2.3.1_-_UMBRAL_DE_TRES_DESTELLOS_O_MENOS_NIVEL:_A",
+
+    "discapacidades": [
+      { "id": "cognitive", "titulo": "Epilepsia fotosensible", "icon": "assets/Cognitiva.png" }
+    ],
+
+    "subcriterios": [
+      {
+        "id": "2.3.1-A",
+        "titulo": "Umbral de tres destellos",
+        "descripcion": "El contenido no debe superar los tres destellos por segundo salvo si el área destellante es suficientemente pequeña para evitar reacciones fotosensitivas.",
+        "url": "http://wikiwcag.udl.cat/Principio_2/2.3_Reacciones_f%C3%ADsicas/2.3.1-A#2.3.1-A._Umbral_de_tres_destellos"
+      }
+    ]
+  },
+    {
+      "principio": {
+        "id": "2",
+        "titulo": "Operable",
+        "url": "https://wikiwcag.udl.cat/Principio_2"
+      },
+      "pauta": {
+        "id": "2.4",
+        "titulo": "Navegación y localización",
+        "url": "https://wikiwcag.udl.cat/Principio_2/2.4_Navegable#Pauta_2.4:_Proporciona_ayuda_para_navegar_y_buscar_contenido."
+      },
+      "id": "2.4.1",
+      "titulo": "Evitar bloques",
+      "nivel": "A",
+      "version": "2.1",
+      "perfiles": ["Desarrollo", "UX"],
+      "grupo": "Interacción",
+      "subgrupo": "Navegación",
+      "descripcion": "Permitir a las personas que navegan secuencialmente saltar bloques de contenido repetido y acceder directamente al contenido principal.",
+      "url": "https://wikiwcag.udl.cat/Principio_2/2.4_Navegable#2.4.1_-_Evitar_bloques_-_Nivel:_A",
+  
+      "discapacidades": [
+        { "id": "blind", "titulo": "Ceguera total", "icon": "assets/Sinvision.png" },
+        { "id": "lowvision", "titulo": "Baja visión", "icon": "assets/Bajavision.png" },
+        { "id": "cognitive", "titulo": "Cognitiva", "icon": "assets/Cognitiva.png" }
+      ],
+  
+      "subcriterios": [
+        {
+          "id": "2.4.1-A",
+          "titulo": "Saltar bloques repetidos",
+          "descripcion": "Se debe permitir saltar los bloques repetidos mediante encabezados adecuados o enlaces de salto.",
+          "url": "https://wikiwcag.udl.cat/Principio_2/2.4_Navegable/2.4.1-A#2.4.1-A._Saltar_bloques_repetidos"
+        }
+      ]
+    },
+  
+    {
+      "principio": { "id": "2", "titulo": "Operable", "url": "https://wikiwcag.udl.cat/Principio_2" },
+      "pauta": { "id": "2.4", "titulo": "Navegación y localización", "url": "https://wikiwcag.udl.cat/Principio_2/2.4_Navegacion" },
+      "id": "2.4.2",
+      "titulo": "Titulado de páginas",
+      "nivel": "A",
+      "version": "2.0",
+      "perfiles": ["UX", "Contenido"],
+      "grupo": "Interacción",
+      "subgrupo": "Navegación",
+      "descripcion": "Ayudar a los usuarios a orientarse asegurando que cada página tiene un título descriptivo.",
+      "url": "https://wikiwcag.udl.cat/Principio_2/2.4_Navegable#2.4.2_-_Titulado_de_p%C3%A1ginas_-_Nivel:_A",
+  
+      "discapacidades": [
+        { "id": "blind", "titulo": "Ceguera total", "icon": "assets/Sinvision.png" },
+        { "id": "motor", "titulo": "Severa movilidad reducida", "icon": "assets/Motriz.png" },
+        { "id": "cognitive", "titulo": "Cognitiva", "icon": "assets/Cognitiva.png" },
+        { "id": "learning", "titulo": "Dislexia / lectura", "icon": "assets/LenguajeAprendizaje.png" }
+        
+      ],
+  
+      "subcriterios": [
+        {
+          "id": "2.4.2-A",
+          "titulo": "Título descriptivo de página",
+          "descripcion": "Cada página debe tener un título descriptivo mediante el elemento <title>.",
+          "url": "https://wikiwcag.udl.cat/Principio_2/2.4_Navegable/2.4.2-A#2.4.2-A._T%C3%ADtulo_descriptivo_de_p%C3%A1gina"
+        }
+      ]
+    },
+  
+    {
+      "principio": { "id": "2", "titulo": "Operable", "url": "https://wikiwcag.udl.cat/Principio_2" },
+      "pauta": { "id": "2.4", "titulo": "Navegación y localización", "url": "https://wikiwcag.udl.cat/Principio_2/2.4_Navegacion" },
+      "id": "2.4.3",
+      "titulo": "Orden del foco",
+      "nivel": "A",
+      "version": "2.0",
+      "perfiles": ["Desarrollo", "UX"],
+      "grupo": "Interacción",
+      "subgrupo": "Navegación",
+      "descripcion": "Garantizar que el orden de tabulación tiene sentido y permite encontrar la información correctamente.",
+      "url": "https://wikiwcag.udl.cat/Principio_2/2.4_Navegable#2.4.3_-_Orden_del_foco_-_Nivel:_A",
+  
+      "discapacidades": [
+        { "id": "lowvision", "titulo": "Baja visión", "icon": "assets/Bajavision.png" },
+        { "id": "motor", "titulo": "Motriz", "icon": "assets/Motriz.png" },
+        { "id": "reading", "titulo": "Discapacidad de lectura", "icon": "assets/Cognitiva.png" }
+      ],
+  
+      "subcriterios": [
+        {
+          "id": "2.4.3-A",
+          "titulo": "Orden de tabulación",
+          "descripcion": "El orden del foco debe seguir el flujo lógico del contenido.",
+          "url": "https://wikiwcag.udl.cat/Principio_2/2.4_Navegable/2.4.3-A#2.4.3-A._Orden_de_tabulaci%C3%B3n_l%C3%B3gico"
+        },
+        {
+          "id": "2.4.3-B",
+          "titulo": "Contenido dinámico",
+          "descripcion": "Si el contenido cambia dinámicamente, el orden del foco debe seguir teniendo sentido y no pasar por elementos ocultos.",
+          "url": "https://wikiwcag.udl.cat/Principio_2/2.4_Navegable/2.4.3-B#2.4.3-B._Contenido_din%C3%A1mico_y_orden_del_foco"
+        }
+      ]
+    },
+  
+    {
+      "principio": { "id": "2", "titulo": "Operable", "url": "https://wikiwcag.udl.cat/Principio_2" },
+      "pauta": { "id": "2.4", "titulo": "Navegación y localización", "url": "https://wikiwcag.udl.cat/Principio_2/2.4_Navegacion" },
+      "id": "2.4.4",
+      "titulo": "Propósito de los enlaces (en contexto)",
+      "nivel": "A",
+      "version": "2.0",
+      "perfiles": ["Contenido", "UX"],
+      "grupo": "Interacción",
+      "subgrupo": "Navegación",
+      "descripcion": "Ayudar a los usuarios a comprender el propósito de cada enlace mediante su texto o su contexto inmediato.",
+      "url": "https://wikiwcag.udl.cat/Principio_2/2.4_Navegable#2.4.4_-_Prop%C3%B3sito_de_los_enlaces_(en_contexto)_-_Nivel:A",
+  
+      "discapacidades": [
+        { "id": "blind", "titulo": "Ceguera total", "icon": "assets/Sinvision.png" },
+        { "id": "visual", "titulo": "Discapacidad visual", "icon": "assets/Bajavision.png" },
+        { "id": "motor", "titulo": "Motriz", "icon": "assets/Motriz.png" },
+        { "id": "cognitive", "titulo": "Cognitiva", "icon": "assets/Cognitiva.png" }
+      ],
+  
+      "subcriterios": [
+        {
+          "id": "2.4.4-A",
+          "titulo": "Propósito del enlace",
+          "descripcion": "El propósito del enlace debe estar claro mediante su propio texto o el contexto inmediato.",
+          "url": "https://wikiwcag.udl.cat/Principio_2/2.4_Navegable/2.4.4-A#2.4.4-A._Prop%C3%B3sito_de_los_enlaces_en_contexto"
+        }
+      ]
+    },
+  
+    {
+      "principio": { "id": "2", "titulo": "Operable", "url": "https://wikiwcag.udl.cat/Principio_2" },
+      "pauta": { "id": "2.4", "titulo": "Navegación y localización", "url": "https://wikiwcag.udl.cat/Principio_2/2.4_Navegacion" },
+      "id": "2.4.5",
+      "titulo": "Múltiples vías",
+      "nivel": "AA",
+      "version": "2.0",
+      "perfiles": ["UX"],
+      "grupo": "Interacción",
+      "subgrupo": "Navegación",
+      "descripcion": "Asegurar que los usuarios pueden localizar el contenido mediante múltiples métodos.",
+      "url": "https://wikiwcag.udl.cat/Principio_2/2.4_Navegable#2.4.5_-_Multiples_v%C3%ADas_-_Nivel:_AA",
+  
+      "discapacidades": [
+        { "id": "blind", "titulo": "Ceguera total", "icon": "assets/Sinvision.png" },
+        { "id": "visual", "titulo": "Discapacidad visual", "icon": "assets/Bajavision.png" },
+        { "id": "cognitive", "titulo": "Cognitiva", "icon": "assets/Cognitiva.png" }
+      ],
+  
+      "subcriterios": [
+        {
+          "id": "2.4.5-A",
+          "titulo": "Mapa o búsqueda en sitios grandes",
+          "descripcion": "Los sitios grandes deben incluir mapa del sitio o buscador interno.",
+          "url": "https://wikiwcag.udl.cat/Principio_2/2.4_Navegable/2.4.5-A#2.4.5-A._Mapa_del_sitio_o_b%C3%BAsqueda_en_sitios_grandes"
+        },
+        {
+          "id": "2.4.5-B",
+          "titulo": "Acceso directo en sitios pequeños",
+          "descripcion": "Los sitios pequeños deben permitir acceder a todas las páginas desde el menú.",
+          "url": "https://wikiwcag.udl.cat/Principio_2/2.4_Navegable/2.4.5-B#2.4.5-B._Acceso_directo_en_sitios_peque%C3%B1os"
+        },
+        {
+          "id": "2.4.5-C",
+          "titulo": "Tabla de contenidos",
+          "descripcion": "Los documentos extensos deben disponer de tabla de contenidos enlazada.",
+          "url": "https://wikiwcag.udl.cat/Principio_2/2.4_Navegable/2.4.5-C#2.4.5-C._Tabla_de_contenidos_en_documentos_extensos"
+        }
+      ]
+    },
+  
+    {
+      "principio": { "id": "2", "titulo": "Operable", "url": "https://wikiwcag.udl.cat/Principio_2" },
+      "pauta": { "id": "2.4", "titulo": "Navegación y localización", "url": "https://wikiwcag.udl.cat/Principio_2/2.4_Navegacion" },
+      "id": "2.4.6",
+      "titulo": "Encabezados y etiquetas",
+      "nivel": "AA",
+      "version": "2.0",
+      "perfiles": ["UX", "Contenido", "Desarrollo"],
+      "grupo": "Interacción",
+      "subgrupo": "Navegación",
+      "descripcion": "Ayudar a los usuarios a comprender la estructura y propósito de la información mediante encabezados y etiquetas claras.",
+      "url": "https://wikiwcag.udl.cat/Principio_2/2.4_Navegable#2.4.6_-_Encabezados_y_etiquetas_-_Nivel:_AA",
+  
+      "discapacidades": [
+        { "id": "blind", "titulo": "Ceguera total", "icon": "assets/Sinvision.png" },
+        { "id": "visual", "titulo": "Discapacidad visual", "icon": "assets/Bajavision.png" },
+        { "id": "learning", "titulo": "Dificultades de lectura", "icon": "assets/LenguajeAprendizaje.png" }
+      ],
+  
+      "subcriterios": [
+        {
+          "id": "2.4.6-A",
+          "titulo": "Encabezados descriptivos",
+          "descripcion": "Los encabezados deben identificar claramente el contenido de cada sección.",
+          "url": "https://wikiwcag.udl.cat/Principio_2/2.4_Navegable/2.4.6-A#2.4.6-A._Encabezados_descriptivos"
+        },
+        {
+          "id": "2.4.6-B",
+          "titulo": "Etiquetas de controles",
+          "descripcion": "Las etiquetas deben identificar claramente la función de los controles.",
+          "url": "https://wikiwcag.udl.cat/Principio_2/2.4_Navegable/2.4.6-B#2.4.6-B._Etiquetas_de_controles"
+        }
+      ]
+    },
+  
+    {
+      "principio": { "id": "2", "titulo": "Operable", "url": "https://wikiwcag.udl.cat/Principio_2" },
+      "pauta": { "id": "2.4", "titulo": "Navegación y localización", "url": "https://wikiwcag.udl.cat/Principio_2/2.4_Navegacion" },
+      "id": "2.4.7",
+      "titulo": "Foco visible",
+      "nivel": "AA",
+      "version": "2.0",
+      "perfiles": ["UX", "UI", "Desarrollo"],
+      "grupo": "Interacción",
+      "subgrupo": "Teclado",
+      "descripcion": "Asegurar que el indicador de foco es claramente visible para el usuario.",
+      "url": "https://wikiwcag.udl.cat/Principio_2/2.4_Navegable#2.4.7_-_Foco_visible_-_Nivel:_AA",
+  
+      "discapacidades": [
+        { "id": "lowvision", "titulo": "Baja visión", "icon": "assets/Bajavision.png" },
+        { "id": "motor", "titulo": "Motriz", "icon": "assets/Motriz.png" },
+        { "id": "cognitive", "titulo": "Déficit de atención", "icon": "assets/Cognitiva.png" }
+      ],
+  
+      "subcriterios": [
+        {
+          "id": "2.4.7-A",
+          "titulo": "Foco visible",
+          "descripcion": "El elemento con foco debe estar siempre claramente resaltado.",
+          "url": "https://wikiwcag.udl.cat/Principio_2/2.4_Navegable/2.4.7-A#2.4.7-A._Foco_visible"
+        }
+      ]
+    },
+  
+    {
+      "principio": { "id": "2", "titulo": "Operable", "url": "https://wikiwcag.udl.cat/Principio_2" },
+      "pauta": { "id": "2.4", "titulo": "Navegación y localización", "url": "https://wikiwcag.udl.cat/Principio_2/2.4_Navegacion" },
+      "id": "2.4.11",
+      "titulo": "Foco no oculto (mínimo)",
+      "nivel": "AA",
+      "version": "2.2",
+      "perfiles": ["UX", "UI", "Desarrollo"],
+      "grupo": "Interacción",
+      "subgrupo": "Teclado",
+      "descripcion": "Cuando un componente recibe el foco del teclado, no debe quedar completamente oculto por contenido superpuesto.",
+      "url": "https://wikiwcag.udl.cat/Principio_2/2.4_Navegable#2.4.11_-_Foco_no_oculto_(minimo)_-_Nivel:_AA",
+  
+      "discapacidades": [
+        { "id": "lowvision", "titulo": "Baja visión", "icon": "assets/Bajavision.png" },
+        { "id": "motor", "titulo": "Motriz", "icon": "assets/Motriz.png" },
+        { "id": "cognitive", "titulo": "Cognitiva", "icon": "assets/Cognitiva.png" }
+      ],
+  
+      "subcriterios": [
+        {
+          "id": "2.4.11-A",
+          "titulo": "Foco no oculto",
+          "descripcion": "Se debe observar si existen contenidos superpuestos que oculten el elemento con foco.",
+          "url": "https://wikiwcag.udl.cat/Principio_2/2.4_Navegable/2.4.11-A#2.4.11-A._Foco_no_oculto_(m%C3%ADnimo)"
+        }
+      ]
+    },
+  
+    {
+      "principio": { "id": "2", "titulo": "Operable", "url": "https://wikiwcag.udl.cat/Principio_2" },
+      "pauta": { "id": "2.5", "titulo": "Modalidades de los input", "url": "https://wikiwcag.udl.cat/Principio_2/2.5_Modalidades_de_los_input#Pauta_2.5:_Modalidades_de_los_input" },
+      "id": "2.5.1",
+      "titulo": "Gestos del puntero",
+      "nivel": "A",
+      "version": "2.1",
+      "perfiles": ["Desarrollo", "UX"],
+      "grupo": "Interacción",
+      "subgrupo": "Puntero",
+      "descripcion": "Asegurar que las funcionalidades basadas en gestos multipunto o gestos de trayectoria también pueden operarse mediante un único punto de contacto.",
+      "url": "https://wikiwcag.udl.cat/Principio_2/2.5_Modalidades_de_los_input#2.5.1_-_Gestos_del_puntero_-_Nivel:_A",
+  
+      "discapacidades": [
+        { "id": "motor", "titulo": "Motriz", "icon": "assets/Motriz.png" }
+      ],
+  
+      "subcriterios": [
+        {
+          "id": "2.5.1-A",
+          "titulo": "Gestos alternativos",
+          "descripcion": "Toda funcionalidad dependiente de gestos multipunto debe poder realizarse mediante un único punto de contacto.",
+          "url": "https://wikiwcag.udl.cat/Principio_2/2.5_Modalidades_de_los_input/2.5.1-A#2.5.1-A._Gestos_alternativos"
+        }
+      ]
+    },
+  
+    {
+      "principio": { "id": "2", "titulo": "Operable", "url": "https://wikiwcag.udl.cat/Principio_2" },
+      "pauta": { "id": "2.5", "titulo": "Modalidades de los input", "url": "https://wikiwcag.udl.cat/Principio_2/2.5_Input" },
+      "id": "2.5.2",
+      "titulo": "Cancelación del puntero",
+      "nivel": "A",
+      "version": "2.1",
+      "perfiles": ["Desarrollo"],
+      "grupo": "Interacción",
+      "subgrupo": "Puntero",
+      "descripcion": "Prevenir activaciones accidentales permitiendo cancelar, deshacer o retrasar acciones realizadas por puntero.",
+      "url": "https://wikiwcag.udl.cat/Principio_2/2.5_Modalidades_de_los_input#2.5.2_-_Cancelaci%C3%B3n_del_puntero_-_Nivel:_A",
+  
+      "discapacidades": [
+        { "id": "blind", "titulo": "Ceguera total", "icon": "assets/Sinvision.png" },
+        { "id": "lowvision", "titulo": "Baja visión", "icon": "assets/Bajavision.png" },
+        { "id": "motor", "titulo": "Motriz", "icon": "assets/Motriz.png" },
+        { "id": "cognitive", "titulo": "Cognitiva", "icon": "assets/Cognitiva.png" }
+      ],
+  
+      "subcriterios": [
+        {
+          "id": "2.5.2-A",
+          "titulo": "Cancelación del puntero",
+          "descripcion": "Las acciones deben ejecutarse en el evento 'up' o permitir cancelación/deshacer antes de completarse.",
+          "url": "https://wikiwcag.udl.cat/Principio_2/2.5_Modalidades_de_los_input/2.5.2-A#2.5.2-A._Cancelaci%C3%B3n_del_puntero"
+        }
+      ]
+    },
+  
+    {
+      "principio": { "id": "2", "titulo": "Operable", "url": "https://wikiwcag.udl.cat/Principio_2" },
+      "pauta": { "id": "2.5", "titulo": "Modalidades de los input", "url": "https://wikiwcag.udl.cat/Principio_2/2.5_Input" },
+      "id": "2.5.3",
+      "titulo": "Etiqueta en el nombre",
+      "nivel": "A",
+      "version": "2.1",
+      "perfiles": ["UX", "Desarrollo"],
+      "grupo": "Interacción",
+      "subgrupo": "Puntero",
+      "descripcion": "El texto visible de las etiquetas debe formar parte del nombre accesible de los controles.",
+      "url": "https://wikiwcag.udl.cat/Principio_2/2.5_Modalidades_de_los_input#2.5.3_-_Etiqueta_en_el_nombre_-_Nivel:_A",
+  
+      "discapacidades": [
+        { "id": "blind", "titulo": "Ceguera total", "icon": "assets/Sinvision.png" },
+        { "id": "speech", "titulo": "Usuarios de entrada por voz", "icon": "assets/Cognitiva.png" }
+      ],
+  
+      "subcriterios": [
+        {
+          "id": "2.5.3-A",
+          "titulo": "Etiqueta en nombre",
+          "descripcion": "El texto visible de una etiqueta debe coincidir con el nombre accesible del componente.",
+          "url": "https://wikiwcag.udl.cat/Principio_2/2.5_Modalidades_de_los_input/2.5.3-A#2.5.3-A._Etiqueta_en_nombre"
+        }
+      ]
+    },
+  
+    {
+      "principio": { "id": "2", "titulo": "Operable", "url": "https://wikiwcag.udl.cat/Principio_2" },
+      "pauta": { "id": "2.5", "titulo": "Modalidades de los input", "url": "https://wikiwcag.udl.cat/Principio_2/2.5_Input" },
+      "id": "2.5.4",
+      "titulo": "Activación mediante movimiento",
+      "nivel": "A",
+      "version": "2.1",
+      "perfiles": ["Desarrollo", "UX"],
+      "grupo": "Interacción",
+      "subgrupo": "Movimiento",
+      "descripcion": "Las funcionalidad activadas mediante movimiento deben poder realizarse desde el UI y permitir desactivar la activación por movimiento.",
+      "url": "https://wikiwcag.udl.cat/Principio_2/2.5_Modalidades_de_los_input#2.5.4_-_Activaci%C3%B3n_mediante_movimiento_-_Nivel:_A",
+  
+      "discapacidades": [
+        { "id": "motor", "titulo": "Motriz", "icon": "assets/Motriz.png" }
+      ],
+  
+      "subcriterios": [
+        {
+          "id": "2.5.4-A",
+          "titulo": "Activación por movimiento",
+          "descripcion": "Toda funcionalidad basada en movimiento debe poder operarse mediante el interfaz y permitir desactivar el control por movimiento.",
+          "url": "https://wikiwcag.udl.cat/Principio_2/2.5_Modalidades_de_los_input/2.5.4-A#2.5.4-A._Activaci%C3%B3n_por_movimiento"
+        }
+      ]
+    },
+  
+    {
+      "principio": { "id": "2", "titulo": "Operable", "url": "https://wikiwcag.udl.cat/Principio_2" },
+      "pauta": { "id": "2.5", "titulo": "Modalidades de los input", "url": "https://wikiwcag.udl.cat/Principio_2/2.5_Input" },
+      "id": "2.5.7",
+      "titulo": "Movimientos de arrastre",
+      "nivel": "AA",
+      "version": "2.2",
+      "perfiles": ["Desarrollo", "UX"],
+      "grupo": "Interacción",
+      "subgrupo": "Movimiento",
+      "descripcion": "Las funcionalidades basadas en arrastrar deben poder operarse mediante un único punto sin necesitar arrastre, salvo que arrastrar sea esencial.",
+      "url": "https://wikiwcag.udl.cat/Principio_2/2.5_Modalidades_de_los_input#2.5.7_-_Movimientos_de_arrastre_-_Nivel:_AA",
+  
+      "discapacidades": [
+        { "id": "motor", "titulo": "Motriz", "icon": "assets/Motriz.png" }
+      ],
+  
+      "subcriterios": [
+        {
+          "id": "2.5.7-A",
+          "titulo": "Movimientos de arrastre",
+          "descripcion": "Toda funcionalidad basada en arrastrar debe poder usarse sin arrastrar mediante un single pointer.",
+          "url": "https://wikiwcag.udl.cat/Principio_2/2.5_Modalidades_de_los_input/2.5.7-A#2.5.7-A._Movimientos_de_arrastre"
+        }
+      ]
+    },
+  
+    {
+      "principio": { "id": "2", "titulo": "Operable", "url": "https://wikiwcag.udl.cat/Principio_2" },
+      "pauta": { "id": "2.5", "titulo": "Modalidades de los input", "url": "https://wikiwcag.udl.cat/Principio_2/2.5_Input" },
+      "id": "2.5.8",
+      "titulo": "Tamaño mínimo del objetivo",
+      "nivel": "AA",
+      "version": "2.2",
+      "perfiles": ["Desarrollo", "UX", "UI"],
+      "grupo": "Interacción",
+      "subgrupo": "Puntero",
+      "descripcion": "Garantizar que los elementos interactivos son suficientemente grandes para evitar errores al pulsar.",
+      "url": "https://wikiwcag.udl.cat/Principio_2/2.5_Modalidades_de_los_input#2.5.8_-_Tama%C3%B1o_minimo_-_Nivel:_AA",
+  
+      "discapacidades": [
+        { "id": "motor", "titulo": "Motriz", "icon": "assets/Motriz.png" }
+      ],
+  
+      "subcriterios": [
+        {
+          "id": "2.5.8-A",
+          "titulo": "Tamaño mínimo de interacción",
+          "descripcion": "Los elementos interactivos deben tener al menos 24 × 24 px de área activa.",
+          "url": "https://wikiwcag.udl.cat/Principio_2/2.5_Modalidades_de_los_input/2.5.8-A#2.5.8-A._Tama%C3%B1o_m%C3%ADnimo_de_interacci%C3%B3n"
+        }
+      ]
+    }
+  
+]
